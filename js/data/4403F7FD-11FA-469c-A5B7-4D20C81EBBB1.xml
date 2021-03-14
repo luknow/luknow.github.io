@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.8:1", "", "Wyświetlić profile znajdujące się w tej samej facebookowej grupie", "EARoot/EA1/EA8/EA97.htm", "7.png", "E201", "0", "", "UseCase0","{7E4E8C6B-4657-4a2a-8064-A7EED4D401EF}");
+tocTab[tocTab.length] = new Array("0.1.8:2", "", "Wyświetlić profile, które wzięły udział w tym samym facebookowych wydarzeniu", "EARoot/EA1/EA8/EA98.htm", "7.png", "E202", "0", "", "UseCase0","{79B3A0E9-0488-4019-A3FA-CB0CBC5E9FFF}");

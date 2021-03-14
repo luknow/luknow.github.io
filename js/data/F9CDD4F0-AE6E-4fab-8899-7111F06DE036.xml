@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.10:1", "", "Dodać zdjęcie", "EARoot/EA1/EA10/EA107.htm", "7.png", "E211", "0", "", "UseCase0","{7B2E0A49-2AAC-49de-A62A-000B48C47782}");
+tocTab[tocTab.length] = new Array("0.1.10:2", "", "Ustawić zdjęcie profilowe", "EARoot/EA1/EA10/EA108.htm", "7.png", "E212", "0", "", "UseCase0","{15E1E916-332B-44ff-A96E-813D0A8D4EBB}");
+tocTab[tocTab.length] = new Array("0.1.10:3", "", "Usunąć zdjęcie", "EARoot/EA1/EA10/EA109.htm", "7.png", "E213", "0", "", "UseCase0","{FC2870E4-6BF7-45af-873B-88CEDD360350}");
+tocTab[tocTab.length] = new Array("0.1.10:4", "", "Zmienić kolejność zdjęć", "EARoot/EA1/EA10/EA110.htm", "7.png", "E214", "0", "", "UseCase0","{6E52DAC6-AB9B-4070-AEAE-4413C7432C66}");

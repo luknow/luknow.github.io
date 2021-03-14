@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.2.2.2:1", "", "Wymagania niefunkcjonalne głosowanie", "EARoot/EA2/EA2/EA2/EA272.htm", "188.png", "20", "0", "", "Custom diagram0","{987A05CC-8285-4b51-A187-5E5A3DB86369}");
+tocTab[tocTab.length] = new Array("0.2.2.2:2", "", "«NonfunctionalRequirement» Informacja o wykorzystanym limicie głosów za", "EARoot/EA2/EA2/EA2/EA275.htm", "19.png", "E112", "0", "", "Requirement0","{2D68FEE0-3322-4e39-9870-EFE99962E70B}");
+tocTab[tocTab.length] = new Array("0.2.2.2:3", "", "«NonfunctionalRequirement» Informacja o wykorzystanym limicie super głosów", "EARoot/EA2/EA2/EA2/EA276.htm", "19.png", "E113", "0", "", "Requirement0","{158C508A-626E-4696-9DCA-CDDAB2253C7C}");
+tocTab[tocTab.length] = new Array("0.2.2.2:4", "", "«NonfunctionalRequirement» Oznaczenie głosu przeciw", "EARoot/EA2/EA2/EA2/EA277.htm", "19.png", "E104", "0", "", "Requirement0","{0F85FE26-A324-43ae-953A-1C360EF1DC49}");
+tocTab[tocTab.length] = new Array("0.2.2.2:5", "", "«NonfunctionalRequirement» Oznaczenie głosu za", "EARoot/EA2/EA2/EA2/EA278.htm", "19.png", "E103", "0", "", "Requirement0","{18F40403-9FBD-4794-BC76-6CE7F7515A74}");
+tocTab[tocTab.length] = new Array("0.2.2.2:6", "", "«NonfunctionalRequirement» Oznaczenie super głosu", "EARoot/EA2/EA2/EA2/EA279.htm", "19.png", "E105", "0", "", "Requirement0","{E6E5AFF9-18AB-45d9-9716-B43455DE3F1D}");

@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.2.1.12.2:1", "", "Zgłoszenie i blokowanie profilu kandydatów", "EARoot/EA2/EA1/EA12/EA2/EA257.htm", "188.png", "5", "0", "", "Custom diagram0","{608712A0-AB94-4f0a-86BF-B018726D4763}");
+tocTab[tocTab.length] = new Array("0.2.1.12.2:2", "", "«Functional» Blokowanie profilu kandydata", "EARoot/EA2/EA1/EA12/EA2/EA260.htm", "19.png", "E22", "0", "", "Requirement0","{7BA69D33-7A7F-41e0-90A0-CAB08D6B6925}");
+tocTab[tocTab.length] = new Array("0.2.1.12.2:3", "", "«Functional» Zgłoszenie profilu kandydata", "EARoot/EA2/EA1/EA12/EA2/EA261.htm", "19.png", "E21", "0", "", "Requirement0","{A3A6EFA9-665A-47d0-958F-E09C399027A7}");

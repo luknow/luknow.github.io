@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.5:1", "", "Dodać profil obserwującego z instagrama", "EARoot/EA1/EA5/EA74.htm", "7.png", "E179", "0", "", "UseCase0","{86C5FB47-086F-46fc-9877-88A90D704F25}");
+tocTab[tocTab.length] = new Array("0.1.5:2", "", "Dodać profil znajomego z facebooka", "EARoot/EA1/EA5/EA75.htm", "7.png", "E177", "0", "", "UseCase0","{F20ECA66-0D4B-47cb-BFB0-6E34EF83DA68}");

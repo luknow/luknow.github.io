@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1.7:1", "", "Odblokować zablokowany profil", "EARoot/EA1/EA7/EA87.htm", "7.png", "E198", "0", "", "UseCase0","{52A3FEDD-1CCC-4299-93CA-4A5658DAA9DD}");
+tocTab[tocTab.length] = new Array("0.1.7:2", "", "Podpiąć instagrama", "EARoot/EA1/EA7/EA88.htm", "7.png", "E191", "0", "", "UseCase0","{61EA113F-AD94-426e-B04E-19C853A6E64F}");
+tocTab[tocTab.length] = new Array("0.1.7:3", "", "Powiadomienie o otrzymanej parze", "EARoot/EA1/EA7/EA89.htm", "7.png", "E196", "0", "", "UseCase0","{A8A6936C-01F1-45b4-B003-9F6137EA0CB9}");
+tocTab[tocTab.length] = new Array("0.1.7:4", "", "Powiadomienie o otrzymanej wiadomości", "EARoot/EA1/EA7/EA90.htm", "7.png", "E195", "0", "", "UseCase0","{2ACE5C58-3DF9-435e-9E9F-89E50DFAD5A0}");
+tocTab[tocTab.length] = new Array("0.1.7:5", "", "Powiadomienie o otrzymanym polubieniu", "EARoot/EA1/EA7/EA91.htm", "7.png", "E197", "0", "", "UseCase0","{E385E77B-7D9D-40bd-B703-19AA2458BCA5}");
+tocTab[tocTab.length] = new Array("0.1.7:6", "", "Usunąć profil", "EARoot/EA1/EA7/EA92.htm", "7.png", "E199", "0", "", "UseCase0","{CE934557-7EA8-4674-8EA0-332215261ECE}");
+tocTab[tocTab.length] = new Array("0.1.7:7", "", "Włączyć, wyłączyć otrzymywanie powiadomień", "EARoot/EA1/EA7/EA93.htm", "7.png", "E194", "0", "", "UseCase0","{023C02E6-8EF3-4bc3-9919-F2DB7DD09E20}");
+tocTab[tocTab.length] = new Array("0.1.7:8", "", "Włączyć, wyłączyć pokazywanie postów z instagrama", "EARoot/EA1/EA7/EA94.htm", "7.png", "E192", "0", "", "UseCase0","{2F82EC9B-FD91-44eb-9AF0-2EF97416F825}");
+tocTab[tocTab.length] = new Array("0.1.7:9", "", "Włączyć, wyłączyć pokazywanie znajomych znajomych", "EARoot/EA1/EA7/EA95.htm", "7.png", "E193", "0", "", "UseCase0","{1B54E207-C7EF-42ab-9671-71CED160CECE}");

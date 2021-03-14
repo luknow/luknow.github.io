@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.11:1", "", "Zablokować czat", "EARoot/EA1/EA11/EA112.htm", "7.png", "E219", "0", "", "UseCase0","{76B4BDA1-1DE1-470d-936D-6D6A854262A1}");
+tocTab[tocTab.length] = new Array("0.1.11:2", "", "Zablokować profil kandydata", "EARoot/EA1/EA11/EA113.htm", "7.png", "E220", "0", "", "UseCase0","{2C068F4E-2816-4390-AA13-F8527F21F510}");
+tocTab[tocTab.length] = new Array("0.1.11:3", "", "Zgłosić czat", "EARoot/EA1/EA11/EA114.htm", "7.png", "E217", "0", "", "UseCase0","{B0CF2871-99EF-491f-8C2B-8BCA5256A8BC}");
+tocTab[tocTab.length] = new Array("0.1.11:4", "", "Zgłosić profil kandydata", "EARoot/EA1/EA11/EA115.htm", "7.png", "E218", "0", "", "UseCase0","{59D4C5F3-3A16-4be0-A3B0-16602B0FD198}");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2.1.6:1", "", "Wymagania funkcjonalne powiadomienia", "EARoot/EA2/EA1/EA6/EA183.htm", "188.png", "13", "0", "", "Custom diagram0","{0EFF9CB2-D910-4e17-AE50-4B7741FCE7C8}");
+tocTab[tocTab.length] = new Array("0.2.1.6:2", "", "«Functional» Powiadomienie o nowej parze", "EARoot/EA2/EA1/EA6/EA186.htm", "19.png", "E60", "0", "", "Requirement0","{5810668E-B0C4-4942-8C6D-84EF49A0545B}");
+tocTab[tocTab.length] = new Array("0.2.1.6:3", "", "«Functional» Powiadomienie o otrzymanej wiadomości", "EARoot/EA2/EA1/EA6/EA187.htm", "19.png", "E61", "0", "", "Requirement0","{95B170B9-F3BF-4edc-A692-499DE0489900}");
+tocTab[tocTab.length] = new Array("0.2.1.6:4", "", "«Functional» Powiadomienie o otrzymanym polubieniu", "EARoot/EA2/EA1/EA6/EA188.htm", "19.png", "E62", "0", "", "Requirement0","{C4ABEE8B-1DE5-4297-AF8C-97BC27293184}");
