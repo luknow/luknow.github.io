@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.1.5:1", "", "Wymagania funkcjonalne lista sympatii", "EARoot/EA2/EA1/EA5/EA178.htm", "188.png", "19", "0", "", "Custom diagram0","{F53ACE76-B103-4e96-868B-81832DBCB466}");
-tocTab[tocTab.length] = new Array("0.2.1.5:2", "", "«Functional» Dodanie profilu obserwującego konto instagrama", "EARoot/EA2/EA1/EA5/EA181.htm", "19.png", "E99", "0", "", "Requirement0","{9A79A9CA-46DE-4cb1-8332-24C060A6AF5E}");
-tocTab[tocTab.length] = new Array("0.2.1.5:3", "", "«Functional» Dodanie profilu znajomego z facebooka", "EARoot/EA2/EA1/EA5/EA182.htm", "19.png", "E98", "0", "", "Requirement0","{E3262736-94C1-4ecd-8F0D-B14DD812529E}");
+tocTab[tocTab.length] = new Array("0.2.1.5:1", "", "Wymagania funkcjonalne lista sympatii", "EARoot/EA2/EA1/EA5/EA195.htm", "188.png", "19", "0", "", "Custom diagram0","{F53ACE76-B103-4e96-868B-81832DBCB466}");
+tocTab[tocTab.length] = new Array("0.2.1.5:2", "", "«Functional» Dodanie profilu obserwującego konto instagrama", "EARoot/EA2/EA1/EA5/EA198.htm", "19.png", "E99", "0", "", "Requirement0","{9A79A9CA-46DE-4cb1-8332-24C060A6AF5E}");
+tocTab[tocTab.length] = new Array("0.2.1.5:3", "", "«Functional» Dodanie profilu znajomego z facebooka", "EARoot/EA2/EA1/EA5/EA199.htm", "19.png", "E98", "0", "", "Requirement0","{E3262736-94C1-4ecd-8F0D-B14DD812529E}");

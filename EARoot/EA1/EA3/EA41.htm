@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Przekroczenie limitu głosów za</title>
+<title>Komunikat o przekroczeniu limitu super głosów</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Przekroczenie limitu głosów za", " : "))</script> WYM-WF-017 : Public  &lt;&lt;Functional&gt;&gt; Requirement</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Komunikat o przekroczeniu limitu super głosów", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14.02.2021 14:09:40</td>
+			<td width="85%" class="ObjectDetailsValue">20.03.2021 17:01:40</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">20.02.2021 16:12:22</td>
+			<td class="ObjectDetailsValue">20.03.2021 17:21:55</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -71,11 +71,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
-			<td class="ObjectDetailsValue">Medium</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj06" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
-			<td class="ObjectDetailsValue">Medium</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
@@ -87,18 +87,19 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{AAAB057A-8897-4c97-89BB-99ABDF3F40D1}</td>
+			<td class="ObjectDetailsValue">{5D0D5CF2-20D5-487b-9CD0-1291F9435313}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA31.htm">Wymagania funkcjonalne głosowanie</a></td>
+			<td class="ObjectDetailsValue"><a href="EA30.htm">Głosowanie</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">W przypadku przekroczenia przez u&#380;ytkownika dziennego limitu 50 g&#322;os&#243;w za dziennie u&#380;ytkownik nie mo&#380;e wys&#322;a&#263; kolejnych g&#322;os&#243;w przez nast&#281;pne 24 godziny. Przy pr&#243;bie oddania g&#322;osu musi pojawi&#263; si&#281; informacja o wykorzystanym limicie&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Przypadek u&#380;ycia realizuj&#261;cy wymaganie funkcjonalne WYM-WF-015.&lt;br/&gt;W przypadku przekroczenia przez u&#380;ytkownika dziennego limitu 3 &lt;br/&gt;super g&#322;os u&#380;ytkownik nie mo&#380;e wys&#322;a&#263; kolejnych super g&#322;os przez nast&#281;pne 24 godziny. Przy pr&#243;bie oddania super g&#322;os musi pojawi&#263; si&#281; informacja o wykorzystanym limicie.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -113,7 +114,26 @@ function nameClassifier(name, separator)
 
 
 			</table>
-		</div>	</div>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA37.htm">Głosować super głosem</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Extends</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>
