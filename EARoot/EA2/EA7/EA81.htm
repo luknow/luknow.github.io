@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">21.03.2021 15:31:45</td>
+			<td class="ObjectDetailsValue">28.03.2021 13:18:58</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,13 +94,39 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="EA78.htm">Preferencje wyszukiwania profilu</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Przypadek u&#380;ycia realizuj&#261;cy wymaganie funkcjonalne WYM-WF-041. U&#380;ytkownik ma mo&#380;liwo&#347;&#263; ustawienia zakresu odleg&#322;o&#347;ci wyszukiwania profil w celu pomini&#281;cia profilu, kt&#243;ry nie spe&#322;nia jego oczekiwa&#324;.&lt;br/&gt;Mo&#380;liwe warto&#347;ci do wyboru dla zakresu odleg&#322;o&#347;ci to&lt;br/&gt;lista warto&#347;ci z zakresu 5-400 km:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Dla zakresu 5-20 km warto&#347;ci zwi&#281;kszone o 1 (5 km, 6 km),&lt;/li&gt;&lt;li&gt;Dla zakresu 20-50 km warto&#347;ci zwi&#281;kszone o 5 (20k m, 25 km),&lt;/li&gt;&lt;li&gt;Dla zakresu 50-400 km lwarto&#347;ci zwi&#281;kszone o 10 (50 km, 60 km).&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Przypadek u&#380;ycia realizuj&#261;cy wymaganie funkcjonalne WYM-WF-041. U&#380;ytkownik ma mo&#380;liwo&#347;&#263; ustawienia zakresu odleg&#322;o&#347;ci wyszukiwania profil w celu pomini&#281;cia profilu, kt&#243;ry nie spe&#322;nia jego oczekiwa&#324;.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie 1</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints61" onclick="parent.toggleDiv('detailsDIVConstraints61','DetailsImageConstraints61')" />Details:
+							<div id="detailsDIVConstraints61" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla zakresu odleg&#322;o&#347;ci to&lt;br/&gt;lista warto&#347;ci z zakresu 5-400 km:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Dla zakresu 5-20 km warto&#347;ci zwi&#281;kszone o 1 (5 km, 6 km),&lt;/li&gt;&lt;li&gt;Dla zakresu 20-50 km warto&#347;ci zwi&#281;kszone o 5 (20k m, 25 km),&lt;/li&gt;&lt;li&gt;Dla zakresu 50-400 km lwarto&#347;ci zwi&#281;kszone o 10 (50 km, 60 km).&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
