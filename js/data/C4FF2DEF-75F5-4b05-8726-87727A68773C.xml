@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.8:1", "", "Systemy zewnętrzne", "EARoot/EA1/EA8/EA86.htm", "180.png", "29", "0", "", "Use Case diagram0","{AAD35B32-4CFA-4a10-94EF-B29C295C4CEC}");
-tocTab[tocTab.length] = new Array("0.1.8:2", "", "Podpiąć instagrama", "EARoot/EA1/EA8/EA89.htm", "7.png", "E191", "0", "", "UseCase0","{61EA113F-AD94-426e-B04E-19C853A6E64F}");
-tocTab[tocTab.length] = new Array("0.1.8:3", "", "Włączyć, wyłączyć pokazywanie postów z instagrama", "EARoot/EA1/EA8/EA90.htm", "7.png", "E192", "0", "", "UseCase0","{2F82EC9B-FD91-44eb-9AF0-2EF97416F825}");
-tocTab[tocTab.length] = new Array("0.1.8:4", "", "Włączyć, wyłączyć pokazywanie znajomych znajomych", "EARoot/EA1/EA8/EA91.htm", "7.png", "E193", "0", "", "UseCase0","{1B54E207-C7EF-42ab-9671-71CED160CECE}");
+tocTab[tocTab.length] = new Array("0.2.8:1", "", "Systemy zewnętrzne", "EARoot/EA2/EA8/EA90.htm", "180.png", "29", "0", "", "Use Case diagram0","{AAD35B32-4CFA-4a10-94EF-B29C295C4CEC}");
+tocTab[tocTab.length] = new Array("0.2.8:2", "", "Podpiąć instagrama", "EARoot/EA2/EA8/EA93.htm", "7.png", "E191", "0", "", "UseCase0","{61EA113F-AD94-426e-B04E-19C853A6E64F}");
+tocTab[tocTab.length] = new Array("0.2.8:3", "", "Włączyć, wyłączyć pokazywanie postów z instagrama", "EARoot/EA2/EA8/EA94.htm", "7.png", "E192", "0", "", "UseCase0","{2F82EC9B-FD91-44eb-9AF0-2EF97416F825}");
+tocTab[tocTab.length] = new Array("0.2.8:4", "", "Włączyć, wyłączyć pokazywanie znajomych znajomych", "EARoot/EA2/EA8/EA95.htm", "7.png", "E193", "0", "", "UseCase0","{1B54E207-C7EF-42ab-9671-71CED160CECE}");

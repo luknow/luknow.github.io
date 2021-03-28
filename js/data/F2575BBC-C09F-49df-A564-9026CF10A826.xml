@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.1.2:1", "", "Czat", "EARoot/EA1/EA2/EA20.htm", "180.png", "24", "0", "", "Use Case diagram0","{E8B6E475-1C1A-4252-B438-5BB355B2A359}");
-tocTab[tocTab.length] = new Array("0.1.2:2", "", "Porozmawiać", "EARoot/EA1/EA2/EA23.htm", "7.png", "E140", "0", "", "UseCase0","{6D449481-AB45-4c01-B4CF-B3F7A1995CAC}");
-tocTab[tocTab.length] = new Array("0.1.2:3", "", "Porozmawiać za pomocą czatu tekstowego", "EARoot/EA1/EA2/EA24.htm", "7.png", "E141", "0", "", "UseCase0","{5DBF6732-2133-4a63-AD8E-D1EED51E6D57}");
-tocTab[tocTab.length] = new Array("0.1.2:4", "", "Porozmawiać za pomocą rozmowy wideo", "EARoot/EA1/EA2/EA25.htm", "7.png", "E142", "0", "", "UseCase0","{89721E2E-24F8-42f2-94FA-2E6DE83DACA5}");
-tocTab[tocTab.length] = new Array("0.1.2:5", "", "Usunąć czat tekstowy", "EARoot/EA1/EA2/EA26.htm", "7.png", "E146", "0", "", "UseCase0","{D0F02284-2CE8-4e66-8332-68785804F6B0}");
-tocTab[tocTab.length] = new Array("0.1.2:6", "", "Wyróżnić profil z którym odbyła się rozmowa wideo", "EARoot/EA1/EA2/EA27.htm", "7.png", "E145", "0", "", "UseCase0","{19A57D70-7565-4678-98E0-9B834E2BBB66}");
-tocTab[tocTab.length] = new Array("0.1.2:7", "", "Wysłać gifa", "EARoot/EA1/EA2/EA28.htm", "7.png", "E143", "0", "", "UseCase0","{92B0B831-6E7B-46ce-99F1-2DE8A5D473D5}");
-tocTab[tocTab.length] = new Array("0.1.2:8", "", "Wysłać naklejkę facebookową", "EARoot/EA1/EA2/EA29.htm", "7.png", "E144", "0", "", "UseCase0","{89D07FA3-BFD6-4d51-B329-563DFB1CDF8F}");
+tocTab[tocTab.length] = new Array("0.2.2:1", "", "Czat", "EARoot/EA2/EA2/EA24.htm", "180.png", "24", "0", "", "Use Case diagram0","{E8B6E475-1C1A-4252-B438-5BB355B2A359}");
+tocTab[tocTab.length] = new Array("0.2.2:2", "", "Porozmawiać", "EARoot/EA2/EA2/EA27.htm", "7.png", "E140", "0", "", "UseCase0","{6D449481-AB45-4c01-B4CF-B3F7A1995CAC}");
+tocTab[tocTab.length] = new Array("0.2.2:3", "", "Porozmawiać za pomocą czatu tekstowego", "EARoot/EA2/EA2/EA28.htm", "7.png", "E141", "0", "", "UseCase0","{5DBF6732-2133-4a63-AD8E-D1EED51E6D57}");
+tocTab[tocTab.length] = new Array("0.2.2:4", "", "Porozmawiać za pomocą rozmowy wideo", "EARoot/EA2/EA2/EA29.htm", "7.png", "E142", "0", "", "UseCase0","{89721E2E-24F8-42f2-94FA-2E6DE83DACA5}");
+tocTab[tocTab.length] = new Array("0.2.2:5", "", "Usunąć czat tekstowy", "EARoot/EA2/EA2/EA30.htm", "7.png", "E146", "0", "", "UseCase0","{D0F02284-2CE8-4e66-8332-68785804F6B0}");
+tocTab[tocTab.length] = new Array("0.2.2:6", "", "Wyróżnić profil z którym odbyła się rozmowa wideo", "EARoot/EA2/EA2/EA31.htm", "7.png", "E145", "0", "", "UseCase0","{19A57D70-7565-4678-98E0-9B834E2BBB66}");
+tocTab[tocTab.length] = new Array("0.2.2:7", "", "Wysłać gifa", "EARoot/EA2/EA2/EA32.htm", "7.png", "E143", "0", "", "UseCase0","{92B0B831-6E7B-46ce-99F1-2DE8A5D473D5}");
+tocTab[tocTab.length] = new Array("0.2.2:8", "", "Wysłać naklejkę facebookową", "EARoot/EA2/EA2/EA33.htm", "7.png", "E144", "0", "", "UseCase0","{89D07FA3-BFD6-4d51-B329-563DFB1CDF8F}");

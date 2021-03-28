@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.2.1.13.1", "1", "Zgłoszenie i blokowanie czatu", "EARoot/EA2/EA1/EA13/EA1/EA268.htm", "4.png", "", "", "{AAD25D18-71D4-48f5-A4A0-8FFA7CEC7BBF}", "Package");
-tocTab[tocTab.length] = new Array("0.2.1.13.2", "1", "Zgłoszenie i blokowanie profilu", "EARoot/EA2/EA1/EA13/EA2/EA273.htm", "4.png", "", "", "{DD8E5468-8001-4856-AF42-59026B153E40}", "Package");
+tocTab[tocTab.length] = new Array("0.3.1.13.1", "1", "Zgłoszenie i blokowanie czatu", "EARoot/EA3/EA1/EA13/EA1/EA272.htm", "4.png", "", "", "{AAD25D18-71D4-48f5-A4A0-8FFA7CEC7BBF}", "Package");
+tocTab[tocTab.length] = new Array("0.3.1.13.2", "1", "Zgłoszenie i blokowanie profilu", "EARoot/EA3/EA1/EA13/EA2/EA277.htm", "4.png", "", "", "{DD8E5468-8001-4856-AF42-59026B153E40}", "Package");

@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.1.13.1:1", "", "Zgłoszenie czatu i blokowanie czatu", "EARoot/EA2/EA1/EA13/EA1/EA266.htm", "188.png", "10", "0", "", "Custom diagram0","{770A727D-D01B-4d0a-BB02-07BCF3948ED5}");
-tocTab[tocTab.length] = new Array("0.2.1.13.1:2", "", "«Functional» Blokowanie czatu", "EARoot/EA2/EA1/EA13/EA1/EA269.htm", "19.png", "E48", "0", "", "Requirement0","{737A7085-855A-4e35-8444-8AD00CA5D68F}");
-tocTab[tocTab.length] = new Array("0.2.1.13.1:3", "", "«Functional» Zgłoszenie czatu", "EARoot/EA2/EA1/EA13/EA1/EA270.htm", "19.png", "E47", "0", "", "Requirement0","{A658A6BE-CA42-4708-98A8-93CC61F013E5}");
+tocTab[tocTab.length] = new Array("0.3.1.13.1:1", "", "Zgłoszenie czatu i blokowanie czatu", "EARoot/EA3/EA1/EA13/EA1/EA270.htm", "188.png", "10", "0", "", "Custom diagram0","{770A727D-D01B-4d0a-BB02-07BCF3948ED5}");
+tocTab[tocTab.length] = new Array("0.3.1.13.1:2", "", "«Functional» Blokowanie czatu", "EARoot/EA3/EA1/EA13/EA1/EA273.htm", "19.png", "E48", "0", "", "Requirement0","{737A7085-855A-4e35-8444-8AD00CA5D68F}");
+tocTab[tocTab.length] = new Array("0.3.1.13.1:3", "", "«Functional» Zgłoszenie czatu", "EARoot/EA3/EA1/EA13/EA1/EA274.htm", "19.png", "E47", "0", "", "Requirement0","{A658A6BE-CA42-4708-98A8-93CC61F013E5}");

@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.1.12:1", "", "Zdjęcia", "EARoot/EA1/EA12/EA113.htm", "180.png", "32", "0", "", "Use Case diagram0","{CD115F91-6744-4999-9969-477966651895}");
-tocTab[tocTab.length] = new Array("0.1.12:2", "", "Dodać zdjęcie", "EARoot/EA1/EA12/EA116.htm", "7.png", "E211", "0", "", "UseCase0","{7B2E0A49-2AAC-49de-A62A-000B48C47782}");
-tocTab[tocTab.length] = new Array("0.1.12:3", "", "Ustawić zdjęcie profilowe", "EARoot/EA1/EA12/EA117.htm", "7.png", "E212", "0", "", "UseCase0","{15E1E916-332B-44ff-A96E-813D0A8D4EBB}");
-tocTab[tocTab.length] = new Array("0.1.12:4", "", "Usunąć zdjęcia", "EARoot/EA1/EA12/EA118.htm", "7.png", "E213", "0", "", "UseCase0","{FC2870E4-6BF7-45af-873B-88CEDD360350}");
-tocTab[tocTab.length] = new Array("0.1.12:5", "", "Zmienić kolejność zdjęć", "EARoot/EA1/EA12/EA119.htm", "7.png", "E214", "0", "", "UseCase0","{6E52DAC6-AB9B-4070-AEAE-4413C7432C66}");
+tocTab[tocTab.length] = new Array("0.2.12:1", "", "Zdjęcia", "EARoot/EA2/EA12/EA117.htm", "180.png", "32", "0", "", "Use Case diagram0","{CD115F91-6744-4999-9969-477966651895}");
+tocTab[tocTab.length] = new Array("0.2.12:2", "", "Dodać zdjęcie", "EARoot/EA2/EA12/EA120.htm", "7.png", "E211", "0", "", "UseCase0","{7B2E0A49-2AAC-49de-A62A-000B48C47782}");
+tocTab[tocTab.length] = new Array("0.2.12:3", "", "Ustawić zdjęcie profilowe", "EARoot/EA2/EA12/EA121.htm", "7.png", "E212", "0", "", "UseCase0","{15E1E916-332B-44ff-A96E-813D0A8D4EBB}");
+tocTab[tocTab.length] = new Array("0.2.12:4", "", "Usunąć zdjęcie", "EARoot/EA2/EA12/EA122.htm", "7.png", "E213", "0", "", "UseCase0","{FC2870E4-6BF7-45af-873B-88CEDD360350}");
+tocTab[tocTab.length] = new Array("0.2.12:5", "", "Zmienić kolejność zdjęć", "EARoot/EA2/EA12/EA123.htm", "7.png", "E214", "0", "", "UseCase0","{6E52DAC6-AB9B-4070-AEAE-4413C7432C66}");

@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.1:1", "", "Administrator aplikacji", "EARoot/EA1/EA1/EA16.htm", "6.png", "E215", "0", "", "Actor0","{15698C63-2BC4-4b4d-B241-16FE32D4DA14}");
-tocTab[tocTab.length] = new Array("0.1.1:2", "", "«System» Facebook", "EARoot/EA1/EA1/EA17.htm", "6.png", "E174", "0", "", "Actor0","{61858217-B2E8-45bf-B8B7-842401748585}");
-tocTab[tocTab.length] = new Array("0.1.1:3", "", "«System» Instagram", "EARoot/EA1/EA1/EA18.htm", "6.png", "E228", "0", "", "Actor0","{39B10048-8048-44f5-98B3-49AC0E661BB4}");
-tocTab[tocTab.length] = new Array("0.1.1:4", "", "Użytkownik", "EARoot/EA1/EA1/EA19.htm", "6.png", "E137", "0", "", "Actor0","{4A94320D-D2BA-45d7-AF24-201D4CABB324}");
+tocTab[tocTab.length] = new Array("0.2.1:1", "", "Administrator aplikacji", "EARoot/EA2/EA1/EA20.htm", "6.png", "E215", "0", "", "Actor0","{15698C63-2BC4-4b4d-B241-16FE32D4DA14}");
+tocTab[tocTab.length] = new Array("0.2.1:2", "", "«System» Facebook", "EARoot/EA2/EA1/EA21.htm", "6.png", "E174", "0", "", "Actor0","{61858217-B2E8-45bf-B8B7-842401748585}");
+tocTab[tocTab.length] = new Array("0.2.1:3", "", "«System» Instagram", "EARoot/EA2/EA1/EA22.htm", "6.png", "E228", "0", "", "Actor0","{39B10048-8048-44f5-98B3-49AC0E661BB4}");
+tocTab[tocTab.length] = new Array("0.2.1:4", "", "Użytkownik", "EARoot/EA2/EA1/EA23.htm", "6.png", "E137", "0", "", "Actor0","{4A94320D-D2BA-45d7-AF24-201D4CABB324}");
