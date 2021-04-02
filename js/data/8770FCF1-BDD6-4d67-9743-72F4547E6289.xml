@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.4.1.11.1", "1", "Wyświetlenie profilu kandydata od którego otrzymano polubienie", "EARoot/EA4/EA1/EA11/EA1/EA271.htm", "4.png", "", "", "{3FDD45A2-C3AD-4903-AC24-F46FC72F766B}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.11.2", "1", "Wyświetlenie profilu kandydatów", "EARoot/EA4/EA1/EA11/EA2/EA277.htm", "4.png", "", "", "{262B3C52-5F4C-44f7-BBBE-E2BA58E9C383}", "Package");
+tocTab[tocTab.length] = new Array("0.4.1.11.1", "1", "Wyświetlenie profilu kandydata od którego otrzymano polubienie", "EARoot/EA4/EA1/EA11/EA1/EA269.htm", "4.png", "", "", "{3FDD45A2-C3AD-4903-AC24-F46FC72F766B}", "Package");
+tocTab[tocTab.length] = new Array("0.4.1.11.2", "1", "Wyświetlenie profilu kandydatów", "EARoot/EA4/EA1/EA11/EA2/EA275.htm", "4.png", "", "", "{262B3C52-5F4C-44f7-BBBE-E2BA58E9C383}", "Package");

@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.4.1.8:1", "", "Wymagania funkcjonalne systemy zewnętrzne", "EARoot/EA4/EA1/EA8/EA242.htm", "188.png", "15", "0", "", "Custom diagram0","{5853B1EE-8595-4d8c-9B83-12A511ADA809}");
-tocTab[tocTab.length] = new Array("0.4.1.8:2", "", "«Functional» Podpięcie instagrama", "EARoot/EA4/EA1/EA8/EA245.htm", "19.png", "E82", "0", "", "Requirement0","{A775CA4A-BB38-4512-B115-AEDF222A2E86}");
-tocTab[tocTab.length] = new Array("0.4.1.8:3", "", "«Functional» Pokazywanie postów z instagrama", "EARoot/EA4/EA1/EA8/EA246.htm", "19.png", "E83", "0", "", "Requirement0","{DECD1CDA-3EE3-44dd-B7AB-B344607DB6BB}");
-tocTab[tocTab.length] = new Array("0.4.1.8:4", "", "«Functional» Pokazywanie profilu znajomego znajomego", "EARoot/EA4/EA1/EA8/EA247.htm", "19.png", "E87", "0", "", "Requirement0","{DF6611FD-C7C2-4a68-A07B-23E973379F88}");
-tocTab[tocTab.length] = new Array("0.4.1.8:5", "", "«Functional» Usunięcie podpięcia instagrama", "EARoot/EA4/EA1/EA8/EA248.htm", "19.png", "E302", "0", "", "Requirement0","{5657B16E-F529-4cd6-AE9B-6D7573F51CF6}");
+tocTab[tocTab.length] = new Array("0.4.1.8:1", "", "Wymagania funkcjonalne systemy zewnętrzne", "EARoot/EA4/EA1/EA8/EA240.htm", "188.png", "15", "0", "", "Custom diagram0","{5853B1EE-8595-4d8c-9B83-12A511ADA809}");
+tocTab[tocTab.length] = new Array("0.4.1.8:2", "", "«Functional» Podpięcie instagrama", "EARoot/EA4/EA1/EA8/EA243.htm", "19.png", "E82", "0", "", "Requirement0","{A775CA4A-BB38-4512-B115-AEDF222A2E86}");
+tocTab[tocTab.length] = new Array("0.4.1.8:3", "", "«Functional» Pokazywanie postów z instagrama", "EARoot/EA4/EA1/EA8/EA244.htm", "19.png", "E83", "0", "", "Requirement0","{DECD1CDA-3EE3-44dd-B7AB-B344607DB6BB}");
+tocTab[tocTab.length] = new Array("0.4.1.8:4", "", "«Functional» Pokazywanie profilu znajomego znajomego", "EARoot/EA4/EA1/EA8/EA245.htm", "19.png", "E87", "0", "", "Requirement0","{DF6611FD-C7C2-4a68-A07B-23E973379F88}");
+tocTab[tocTab.length] = new Array("0.4.1.8:5", "", "«Functional» Usunięcie podpięcia instagrama", "EARoot/EA4/EA1/EA8/EA246.htm", "19.png", "E302", "0", "", "Requirement0","{5657B16E-F529-4cd6-AE9B-6D7573F51CF6}");

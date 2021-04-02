@@ -9,5 +9,5 @@ tocTab[tocTab.length] = new Array("0.3.8", "1", "Systemy zewnętrzne", "EARoot/E
 tocTab[tocTab.length] = new Array("0.3.9", "1", "Usunięcie profilu", "EARoot/EA3/EA9/EA117.htm", "4.png", "", "", "{411FF276-63B1-4f4d-A539-23CD4A4FE223}", "Package");
 tocTab[tocTab.length] = new Array("0.3.10", "1", "Wspólne grupy, wydarzenia", "EARoot/EA3/EA10/EA121.htm", "4.png", "", "", "{4403F7FD-11FA-469c-A5B7-4D20C81EBBB1}", "Package");
 tocTab[tocTab.length] = new Array("0.3.11", "1", "Wyświetlenie profilu", "EARoot/EA3/EA11/EA128.htm", "4.png", "", "", "{FF389F17-E9E8-450f-9C3B-F0B4251C330D}", "Package");
-tocTab[tocTab.length] = new Array("0.3.12", "1", "Zdjęcia", "EARoot/EA3/EA12/EA140.htm", "4.png", "", "", "{F9CDD4F0-AE6E-4fab-8899-7111F06DE036}", "Package");
-tocTab[tocTab.length] = new Array("0.3.13", "1", "Zgłoszenie i blokowanie", "EARoot/EA3/EA13/EA147.htm", "4.png", "", "", "{850CEB84-816C-4993-B7EC-1E90EF1A4559}", "Package");
+tocTab[tocTab.length] = new Array("0.3.12", "1", "Zdjęcia", "EARoot/EA3/EA12/EA138.htm", "4.png", "", "", "{F9CDD4F0-AE6E-4fab-8899-7111F06DE036}", "Package");
+tocTab[tocTab.length] = new Array("0.3.13", "1", "Zgłoszenie i blokowanie", "EARoot/EA3/EA13/EA145.htm", "4.png", "", "", "{850CEB84-816C-4993-B7EC-1E90EF1A4559}", "Package");
