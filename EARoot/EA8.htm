@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Głosowanie w pełnej wersji profilu kandydata</title>
+<title>Facebook randki</title>
 <link href="../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Głosowanie w pełnej wersji profilu kandydata", " : "))</script> WYM-WF-010 : Public  &lt;&lt;Functional&gt;&gt; Requirement</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Facebook randki", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14.02.2021 11:33:42</td>
+			<td width="85%" class="ObjectDetailsValue">02.04.2021 11:30:58</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">20.02.2021 16:09:54</td>
+			<td class="ObjectDetailsValue">02.04.2021 11:32:29</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -71,11 +71,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
-			<td class="ObjectDetailsValue">Medium</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj06" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
-			<td class="ObjectDetailsValue">Medium</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
@@ -87,53 +87,63 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{B531EAF4-C4C7-414e-90A6-D7B181BDE066}</td>
+			<td class="ObjectDetailsValue">{53715216-7D41-4073-95FE-BDC60E79D1F0}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1.htm">Wymagania funkcjonalne głosowanie</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1.htm">Podłączenie instagrama</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">U&#380;ytkownik mo&#380;e odda&#263; dla profilu kandydata nast&#281;puj&#261;ce g&#322;osy:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;za,&lt;/li&gt;&lt;li&gt;przeciw,&lt;/li&gt;&lt;li&gt;super g&#322;os,&lt;/li&gt;&lt;li&gt;g&#322;osowanie za pomoc&#261; komentarza.&lt;/li&gt;&lt;/ul&gt;<br />G&#322;osowanie za pomoc&#261; komentarza odbywa si&#281; poprzez zamieszczenie&#160;&#160;komentarza na dowolnym zdj&#281;ciu kandydata&lt;br/&gt;&lt;br/&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
-		<div class="ItemBody" id="ConstraintsTable">
+		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-			  	<tr>
-					<td width="80%" class="TableHeading">Constraint</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Status</td>
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="80%" class="TableRow">Ograniczenie 1</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9.htm">Instagram</a></td>
+					<td width="50%" class="TableRow" valign="top">Żądanie postów </td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints3" onclick="parent.toggleDiv('detailsDIVConstraints3','DetailsImageConstraints3')" />Details:
-							<div id="detailsDIVConstraints3" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">U&#380;ytkownik dziennie mo&#380;e odda&#263; maksymalnie 3 super g&#322;osy &lt;br/&gt;</div>
-
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageMessage0" onclick="parent.toggleDiv('detailsDIVMessage0', 'DetailsImageMessage0')" />Details:
+							<div id="detailsDIVMessage0" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="80%" class="TableRow">Ograniczenie 2</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9.htm">Instagram</a></td>
+					<td width="50%" class="TableRow" valign="top">Żądanie wymiany kodu na token</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1" onclick="parent.toggleDiv('detailsDIVMessage1', 'DetailsImageMessage1')" />Details:
+							<div id="detailsDIVMessage1" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
 				</tr>
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints4" onclick="parent.toggleDiv('detailsDIVConstraints4','DetailsImageConstraints4')" />Details:
-							<div id="detailsDIVConstraints4" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">U&#380;ytkownik dziennie mo&#380;e odda&#263; maksymalnie 50 g&#322;os&#243;w za &lt;br/&gt;</div>
-
+					<td width="50%" class="TableRow" valign="top"><a href="EA9.htm">Instagram</a></td>
+					<td width="50%" class="TableRow" valign="top">Żądanie autoryzacji</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageMessage2" onclick="parent.toggleDiv('detailsDIVMessage2', 'DetailsImageMessage2')" />Details:
+							<div id="detailsDIVMessage2" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
 							</div>
 						</div>
 					</td>
@@ -141,20 +151,72 @@ function nameClassifier(name, separator)
 
 			</table>
 		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
+		<div class="ItemBody" id="MessagesFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isFinalSpecialization:</td>
-				<td width="70%" class="TableRow">0</td>
-			</tr>
-
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9.htm">Instagram</a></td>
+					<td width="50%" class="TableRow" valign="top">Zwrócenie kodu autoryzującego</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3" onclick="parent.toggleDiv('detailsDIVMessage3', 'DetailsImageMessage3')" />Details:
+							<div id="detailsDIVMessage3" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA10.htm">Użytkownik</a></td>
+					<td width="50%" class="TableRow" valign="top">Żądanie podpięcia instagrama</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageMessage4" onclick="parent.toggleDiv('detailsDIVMessage4', 'DetailsImageMessage4')" />Details:
+							<div id="detailsDIVMessage4" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9.htm">Instagram</a></td>
+					<td width="50%" class="TableRow" valign="top">Zwrócenie tokena</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageMessage5" onclick="parent.toggleDiv('detailsDIVMessage5', 'DetailsImageMessage5')" />Details:
+							<div id="detailsDIVMessage5" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9.htm">Instagram</a></td>
+					<td width="50%" class="TableRow" valign="top">Zwrócenie postów z instagrama</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageMessage6" onclick="parent.toggleDiv('detailsDIVMessage6', 'DetailsImageMessage6')" />Details:
+							<div id="detailsDIVMessage6" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
 
 			</table>
-		</div>	</div>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

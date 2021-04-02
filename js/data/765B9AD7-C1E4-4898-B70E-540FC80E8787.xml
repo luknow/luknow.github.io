@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.2.6:1", "", "Powiadomienia przypadki użycia", "EARoot/EA2/EA6/EA71.htm", "180.png", "35", "0", "", "Use Case diagram0","{7B98C67E-3C0C-4d14-83F3-608DBB16F71B}");
-tocTab[tocTab.length] = new Array("0.2.6:2", "", "Powiadomienie o otrzymanej parze", "EARoot/EA2/EA6/EA74.htm", "7.png", "E196", "0", "", "UseCase0","{A8A6936C-01F1-45b4-B003-9F6137EA0CB9}");
-tocTab[tocTab.length] = new Array("0.2.6:3", "", "Powiadomienie o otrzymanej wiadomości", "EARoot/EA2/EA6/EA75.htm", "7.png", "E195", "0", "", "UseCase0","{2ACE5C58-3DF9-435e-9E9F-89E50DFAD5A0}");
-tocTab[tocTab.length] = new Array("0.2.6:4", "", "Powiadomienie o otrzymanym polubieniu", "EARoot/EA2/EA6/EA76.htm", "7.png", "E197", "0", "", "UseCase0","{E385E77B-7D9D-40bd-B703-19AA2458BCA5}");
-tocTab[tocTab.length] = new Array("0.2.6:5", "", "Włączyć, wyłączyć otrzymywanie powiadomień", "EARoot/EA2/EA6/EA77.htm", "7.png", "E194", "0", "", "UseCase0","{023C02E6-8EF3-4bc3-9919-F2DB7DD09E20}");
+tocTab[tocTab.length] = new Array("0.3.6:1", "", "Powiadomienia przypadki użycia", "EARoot/EA3/EA6/EA89.htm", "180.png", "35", "0", "", "Use Case diagram0","{7B98C67E-3C0C-4d14-83F3-608DBB16F71B}");
+tocTab[tocTab.length] = new Array("0.3.6:2", "", "Powiadomienie o otrzymanej parze", "EARoot/EA3/EA6/EA92.htm", "7.png", "E196", "0", "", "UseCase0","{A8A6936C-01F1-45b4-B003-9F6137EA0CB9}");
+tocTab[tocTab.length] = new Array("0.3.6:3", "", "Powiadomienie o otrzymanej wiadomości", "EARoot/EA3/EA6/EA93.htm", "7.png", "E195", "0", "", "UseCase0","{2ACE5C58-3DF9-435e-9E9F-89E50DFAD5A0}");
+tocTab[tocTab.length] = new Array("0.3.6:4", "", "Powiadomienie o otrzymanym polubieniu", "EARoot/EA3/EA6/EA94.htm", "7.png", "E197", "0", "", "UseCase0","{E385E77B-7D9D-40bd-B703-19AA2458BCA5}");
+tocTab[tocTab.length] = new Array("0.3.6:5", "", "Włączyć, wyłączyć otrzymywanie powiadomień", "EARoot/EA3/EA6/EA95.htm", "7.png", "E194", "0", "", "UseCase0","{023C02E6-8EF3-4bc3-9919-F2DB7DD09E20}");

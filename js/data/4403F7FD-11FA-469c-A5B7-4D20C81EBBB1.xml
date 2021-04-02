@@ -1,3 +1,5 @@
-tocTab[tocTab.length] = new Array("0.2.10:1", "", "Wspólne grupy, wydarzenia", "EARoot/EA2/EA10/EA100.htm", "180.png", "30", "0", "", "Use Case diagram0","{790C1A74-9F5D-40ed-AF68-F053DA71C513}");
-tocTab[tocTab.length] = new Array("0.2.10:2", "", "Wyświetlić profil znajdujący się w tej samej facebookowej grupie", "EARoot/EA2/EA10/EA103.htm", "7.png", "E201", "0", "", "UseCase0","{7E4E8C6B-4657-4a2a-8064-A7EED4D401EF}");
-tocTab[tocTab.length] = new Array("0.2.10:3", "", "Wyświetlić profil, który wziął udział w tym samym facebookowych wydarzeniu", "EARoot/EA2/EA10/EA104.htm", "7.png", "E202", "0", "", "UseCase0","{79B3A0E9-0488-4019-A3FA-CB0CBC5E9FFF}");
+tocTab[tocTab.length] = new Array("0.3.10:1", "", "Wspólne grupy, wydarzenia", "EARoot/EA3/EA10/EA119.htm", "180.png", "30", "0", "", "Use Case diagram0","{790C1A74-9F5D-40ed-AF68-F053DA71C513}");
+tocTab[tocTab.length] = new Array("0.3.10:2", "", "Filtrowanie grupy", "EARoot/EA3/EA10/EA122.htm", "7.png", "E288", "0", "", "UseCase0","{58764987-D13A-4a99-84BA-40DBC4E17EDD}");
+tocTab[tocTab.length] = new Array("0.3.10:3", "", "Filtrowanie wydarzenia", "EARoot/EA3/EA10/EA123.htm", "7.png", "E289", "0", "", "UseCase0","{F88AD8E6-FA43-4b51-916E-4B3B20E4E467}");
+tocTab[tocTab.length] = new Array("0.3.10:4", "", "Wyświetlić profil znajdujący się w tej samej facebookowej grupie", "EARoot/EA3/EA10/EA124.htm", "7.png", "E201", "0", "", "UseCase0","{7E4E8C6B-4657-4a2a-8064-A7EED4D401EF}");
+tocTab[tocTab.length] = new Array("0.3.10:5", "", "Wyświetlić profil, który wziął udział w tym samym facebookowych wydarzeniu", "EARoot/EA3/EA10/EA125.htm", "7.png", "E202", "0", "", "UseCase0","{79B3A0E9-0488-4019-A3FA-CB0CBC5E9FFF}");
