@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3:1", "", "Starter Sequence Diagram", "EARoot/EA3/EA137.htm", "185.png", "42", "0", "", "Sequence diagram0","{97AF9D4A-CDB2-4193-B0C6-B5763EBD5775}");
+tocTab[tocTab.length] = new Array("0.3:2", "", "Actor A", "EARoot/EA3/EA140.htm", "6.png", "E271", "0", "", "Actor0","{B1536107-45C3-48c7-B00A-1CA06347DD59}");
+tocTab[tocTab.length] = new Array("0.3:3", "", "Object A", "EARoot/EA3/EA141.htm", "57.png", "E273", "0", "", "Sequence0","{BEFB4F82-CD19-4da2-9727-05F0A5E8FB5D}");
+tocTab[tocTab.length] = new Array("0.3:4", "", "Object B", "EARoot/EA3/EA142.htm", "57.png", "E272", "0", "", "Sequence0","{E135EC75-355B-4e34-AA6C-77269F92F987}");

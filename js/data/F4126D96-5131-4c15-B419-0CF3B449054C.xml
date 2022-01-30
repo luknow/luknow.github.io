@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.5.2.4.1:1", "", "Wyświetlenie profilu czat", "EARoot/EA5/EA2/EA4/EA1/EA291.htm", "188.png", "34", "0", "", "Custom diagram0","{5FD80869-28BE-481a-9961-C72239AB09B1}");
+tocTab[tocTab.length] = new Array("0.5.2.4.1:2", "", "«NonfunctionalRequirement» Kolejność wyświetlenia par z którymi nie rozpoczął się czat", "EARoot/EA5/EA2/EA4/EA1/EA294.htm", "19.png", "E225", "0", "", "Requirement0","{C370C176-D731-4e6b-8CC2-4755415D7DA0}");
+tocTab[tocTab.length] = new Array("0.5.2.4.1:3", "", "«NonfunctionalRequirement» Kolejność wyświetlenia par z którymi rozpoczął się czat", "EARoot/EA5/EA2/EA4/EA1/EA295.htm", "19.png", "E224", "0", "", "Requirement0","{433C68C6-C400-4594-A017-4CC986B508A9}");
