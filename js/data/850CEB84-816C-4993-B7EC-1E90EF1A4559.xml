@@ -1,11 +1,3 @@
 tocTab[tocTab.length] = new Array("0.4.13:1", "", "Zgłoszenie i blokowanie", "EARoot/EA4/EA13/EA110.htm", "180.png", "33", "0", "", "Use Case diagram0","{1F939E97-0B1A-45ad-A1F6-EA8C3D9D8737}");
-tocTab[tocTab.length] = new Array("0.4.13:2", "", "Odblokować zablokowany profil", "EARoot/EA4/EA13/EA113.htm", "7.png", "E198", "0", "", "UseCase0","{52A3FEDD-1CCC-4299-93CA-4A5658DAA9DD}");
-tocTab[tocTab.length] = new Array("0.4.13:3", "", "Zablokować czat tekstowy", "EARoot/EA4/EA13/EA114.htm", "7.png", "E219", "0", "", "UseCase0","{76B4BDA1-1DE1-470d-936D-6D6A854262A1}");
-tocTab[tocTab.length] = new Array("0.4.13:4", "", "Zablokować profil", "EARoot/EA4/EA13/EA115.htm", "7.png", "E247", "0", "", "UseCase0","{D38A5ADB-77A7-4115-A37E-518CBA23C625}");
-tocTab[tocTab.length] = new Array("0.4.13:5", "", "Zablokować profil kandydata", "EARoot/EA4/EA13/EA116.htm", "7.png", "E220", "0", "", "UseCase0","{2C068F4E-2816-4390-AA13-F8527F21F510}");
-tocTab[tocTab.length] = new Array("0.4.13:6", "", "Zablokować profil kandydata, który wysłal polubienie", "EARoot/EA4/EA13/EA117.htm", "7.png", "E249", "0", "", "UseCase0","{29B69F0F-71E5-4ea0-921D-8ECB40B62A9B}");
-tocTab[tocTab.length] = new Array("0.4.13:7", "", "Zablokować profil sparowany", "EARoot/EA4/EA13/EA118.htm", "7.png", "E251", "0", "", "UseCase0","{5C5CC94E-32A0-447d-AF90-724D96B796B5}");
-tocTab[tocTab.length] = new Array("0.4.13:8", "", "Zgłosić czat tekstowy", "EARoot/EA4/EA13/EA119.htm", "7.png", "E217", "0", "", "UseCase0","{B0CF2871-99EF-491f-8C2B-8BCA5256A8BC}");
-tocTab[tocTab.length] = new Array("0.4.13:9", "", "Zgłosić profil", "EARoot/EA4/EA13/EA120.htm", "7.png", "E246", "0", "", "UseCase0","{3F466877-F9D1-446b-8CAD-539935DEE3A5}");
-tocTab[tocTab.length] = new Array("0.4.13:10", "", "Zgłosić profil kandydata", "EARoot/EA4/EA13/EA121.htm", "7.png", "E218", "0", "", "UseCase0","{59D4C5F3-3A16-4be0-A3B0-16602B0FD198}");
-tocTab[tocTab.length] = new Array("0.4.13:11", "", "Zgłosić profil kandydata, który wysłał polubienie", "EARoot/EA4/EA13/EA122.htm", "7.png", "E248", "0", "", "UseCase0","{682AE132-C8DC-467c-BDFF-81FA67E36921}");
+tocTab[tocTab.length] = new Array("0.4.13:2", "", "Wysłać zgłoszenie", "EARoot/EA4/EA13/EA113.htm", "7.png", "E217", "0", "", "UseCase0","{B0CF2871-99EF-491f-8C2B-8BCA5256A8BC}");
+tocTab[tocTab.length] = new Array("0.4.13:3", "", "Zmodyfikować blokadę", "EARoot/EA4/EA13/EA114.htm", "7.png", "E219", "0", "", "UseCase0","{76B4BDA1-1DE1-470d-936D-6D6A854262A1}");
