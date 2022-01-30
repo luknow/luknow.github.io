@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.5.1.1", "1", "Czat", "EARoot/EA5/EA1/EA1/EA133.htm", "4.png", "", "", "{6FDF6389-84D6-4c0b-8F11-783576C8B3E6}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.2", "1", "Głosowanie", "EARoot/EA5/EA1/EA2/EA142.htm", "4.png", "", "", "{F58DDBE1-FA6B-408b-8A6B-59CBE3C01E0D}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.3", "1", "Informacje", "EARoot/EA5/EA1/EA3/EA152.htm", "4.png", "", "", "{2951DA9B-036D-4311-B482-695195DA0D81}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.4", "1", "Lista sympatii", "EARoot/EA5/EA1/EA4/EA171.htm", "4.png", "", "", "{4D7D610E-DF66-4acb-B29E-AB529CB7F9A0}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.5", "1", "Powiadomienia", "EARoot/EA5/EA1/EA5/EA176.htm", "4.png", "", "", "{2AAC6879-2E94-42c6-A352-2146BE0203DD}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.6", "1", "Preferencje wyszukiwania profilu kandydata", "EARoot/EA5/EA1/EA6/EA185.htm", "4.png", "", "", "{217180D6-3C85-4d35-9BE2-79DE46E3ED95}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.7", "1", "Systemy zewnętrzne", "EARoot/EA5/EA1/EA7/EA196.htm", "4.png", "", "", "{95EE1171-0B7A-4edd-BD20-E7B5D684D83A}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.8", "1", "Usunięcie profilu", "EARoot/EA5/EA1/EA8/EA203.htm", "4.png", "", "", "{A1B61D69-9203-49fa-A6D5-85090A2F6466}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.9", "1", "Wspólne", "EARoot/EA5/EA1/EA9/EA205.htm", "4.png", "", "", "{12DC0E29-231F-4db3-B7C1-0D4259CFE1D5}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.10", "1", "Wyświetlenie profilu", "EARoot/EA5/EA1/EA10/EA218.htm", "4.png", "", "", "{8770FCF1-BDD6-4d67-9743-72F4547E6289}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.11", "1", "Zdjęcia", "EARoot/EA5/EA1/EA11/EA235.htm", "4.png", "", "", "{55B96333-3C9D-436f-8BA2-0F8A2B3299EA}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.12", "1", "Zgłoszenie i blokowanie", "EARoot/EA5/EA1/EA12/EA239.htm", "4.png", "", "", "{5AA26E3F-DB15-4967-9FD1-2C75EB363726}", "Package");

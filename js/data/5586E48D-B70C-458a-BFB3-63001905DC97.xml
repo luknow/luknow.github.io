@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Diagram klas", "EARoot/EA2/EA18.htm", "175.png", "45", "0", "", "Logical diagram0","{BEBF17B7-76D0-44ac-AA7C-5FBCADB44F29}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "Czat tekstowy", "EARoot/EA2/EA21.htm", "5.png", "E322", "0", "", "Class0","{36143AC0-55FD-46c9-98BD-6F149705F32A}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "Para", "EARoot/EA2/EA22.htm", "5.png", "E321", "0", "", "Class0","{5CC8D850-81FF-4667-A34D-2AAD233FEA56}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "Polubienie", "EARoot/EA2/EA23.htm", "5.png", "E323", "0", "", "Class0","{FD974CDE-B3F8-4a1a-AD21-446600F03CA6}");
+tocTab[tocTab.length] = new Array("0.2:5", "", "Profil zablokowany", "EARoot/EA2/EA24.htm", "5.png", "E320", "0", "", "Class0","{8E49C4BF-D349-46a5-934A-79B586E8D870}");
+tocTab[tocTab.length] = new Array("0.2:6", "", "Zdjęcie", "EARoot/EA2/EA25.htm", "5.png", "E319", "0", "", "Class0","{C66DB5FD-1185-4bcd-A716-67B38228CBD1}");
+tocTab[tocTab.length] = new Array("0.2:7", "", "Profil facebook", "EARoot/EA2/EA26.htm", "5.png", "E318", "0", "", "Class0","{CC04D002-6E7B-4a2a-AA17-06049AF1D39D}");
+tocTab[tocTab.length] = new Array("0.2:8", "", "Profil randki", "EARoot/EA2/EA27.htm", "5.png", "E317", "0", "", "Class0","{6524877F-73AB-4b56-AF04-2F8E5982654E}");

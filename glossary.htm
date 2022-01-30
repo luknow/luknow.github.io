@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Project Glossary</title>
+<link href="./css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="16%" class="TableHeading">Item</td>
+			<td width="8%" class="TableHeading">Type</td>
+			<td width="76%" class="TableHeading">Meaning</td>
+		</tr>
+						<tr valign="top">
+				<td width="16%" class="TableRow">Facebook</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Serwis społecznościowy, w ramach kt&#243;rego zarejestrowani użytkownicy mogą tworzyć sieci i grupy, dzielić się wiadomościami i zdjęciami</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Gif</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Format pliku graficznego pozwalający na tworzenie prostych animacji</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Głos negatywny</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Głos negatywny oznacza brak zainteresowania danym profilem. </td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Głos obiecujący</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Oznacza zainteresowanie danym profilem, kt&#243;re może zamienić się w parę.
+Głos obiecujący to głos:
+<ul>
+	<li>Głos pozytywny,</li>
+	<li>Super głos,</li>
+	<li>Głosowanie komentarzem.</li>
+</ul></td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Głos pozytywny</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Głos pozytywny oznacza zainteresowanie danym profilem. 
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Głosowanie komentarzem</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Głosowanie komentarzem umożliwia wysłanie, kr&#243;tkiej wiadomości tekstowej poprzez umieszczenie jej w polu tekstowym pod dowolnym zdjęciem na profilu kandydata. Takie działanie powoduje, że profil użytkownika wyr&#243;żnia się wśr&#243;d profili innych użytkownik&#243;w, kt&#243;rym r&#243;wnież dany profil się spodobał</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Instagram</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Fotograficzny serwis społecznościowy hostingu zdjęć, kt&#243;ry umożliwia użytkownikom edycję zdjęć i film&#243;w, stosowanie do nich filtr&#243;w cyfrowych oraz udostępnianie ich w r&#243;żnych serwisach społecznościowych</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Lista sympatii</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Lista zawierająca profile znajomych z Facebooka użytkownika lub obserwujących Instagrama użytkownika.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Naklejka facebookowa</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Zdefiniowany przez Facebooka obrazek ukazujący określoną reakcję. Użytkownik ma możliwość dodania do czatu tekstowego na Facebooku naklejek i wysyłania ich w trakcie rozmowy reagując w ten spos&#243;b na treść otrzymanej wiadomości tekstowej. Taka sama możliwość została udostępniona w aplikacji randkowej. </td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Para</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Powiązanie pomiędzy profilami dw&#243;ch użytkownik&#243;w, kt&#243;re umożliwia wchodzenie w interakcję np. poprzez czat tekstowy, czat wideo.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Pełna wersja profilu</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Pełna wersja profilu zawiera:
+<ul>
+	<li>Zdjęcie profilowe kandydata,</li>
+	<li>Imię kandydata,</li>
+	<li>Wiek kandydata,</li>
+	<li>Płeć kandydata,</li>
+	<li>Status kandydata,</li>
+	<li>Wzrost kandydata</li>
+	<li>Miejscowość rodzinną kandydata,</li>
+	<li>Zanane języki kandydata,</li>
+	<li>Stanowisko pracy kandydata,</li>
+	<li>Nazwę firmy kandydata,</li>
+	<li>Nazwy szkoły kandydata,</li>
+	<li>Poziom wykształcenia kandydata,</li>
+	<li>Posiadanie dzieci kandydata,</li>
+	<li>Palenie papieros&#243;w kandydata,</li>
+	<li>Picie alkoholu kandydata,</li>
+	<li>Przekonania religijne kandydata,</li>
+	<li>Hobby i zainteresowania kandydata.</li>
+</ul></td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Polubienie</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Polubienie oznacza otrzymanie od użytkownika lub wysłanie użytkownikowi głosu obiecującego.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Profil</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Reprezentacja użytkownika w aplikacji randkowej. Zawiera przynajmniej jedno zdjęcie użytkownika, może zawierać opis oraz dodatkowe informacje jak np. płeć, wykształcenie czy liczbę posiadanych dzieci. Na jego podstawie pozostali użytkownicy aplikacji dokonują oceny czy chcą uzyskać parę.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Profil kandydata</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Profil z kt&#243;rym użytkownik może utworzyć parę. W przypadku wzajemnego oddania pozytywnego głosu przez użytkownika jak i osoby do kt&#243;rej należy profil kandydata, profil kandydata staje się profilem sparowanym. </td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Profil kandydata który wysłał polubienie</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Profil z kt&#243;rym użytkownik może utworzyć parę. Od profilu kandydata, profil kandydata kt&#243;ry wysłał polubienie r&#243;żni się tym, że w przypadku oddania pozytywnego głosu przez użytkownika profil kandydata staje się automatycznie profilem sparowanym (ponieważ osoba do kt&#243;rej należy profil kandydata kt&#243;ry wysłał polubienie wcześniej wyraziła zainteresowanie).
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Profil sparowany</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Profil, kt&#243;ry utworzył parę z użytkownikiem. Użytkownik może wchodzić w interakcję (np. rozmawiać za pomocą czatu tekstowego) z innym użytkownikiem do kt&#243;rego należy profil.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Skrócona wersja profilu</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Skr&#243;cona wersja profilu zawiera:
+<ul>
+	<li>Zdjęcie profilowe kandydata,</li>
+</ul>
+<ul>
+	<li>Imię kandydata,</li>
+</ul>
+<ul>
+	<li>Wiek kandydata,</li>
+</ul>
+<ul>
+	<li>Lokalizację kandydata.</li>
+</ul></td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Super głos</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Super głos to rodzaj głosu pozytywnego jaki może wysłać użytkownik dla profilu kandydata. Liczba super głos&#243;w jest ograniczona ale powoduje, że profil użytkownika wyr&#243;żnia się wśr&#243;d profili innych użytkownik&#243;w, kt&#243;rym r&#243;wnież dany profil się spodobał</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Tenor</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Internetowa wyszukiwarka GIF i baza danych. Gł&#243;wnym produktem jest klawiatura GIF, kt&#243;ra jest dostępna na platformy:
+<ul>
+	<li>iOS, </li>
+	<li>Android, </li>
+	<li>macOS.</li>
+</ul></td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Użytkownik</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Każda osoba posiadająca profil w aplikacji randkowej </td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Zmodyfikować</td>
+				<td width="8%" class="TableRow">Biznesowe</td>
+				<td width="76%" class="TableRow">Wprowadzić lub usunąć</td>
+			</tr>
+</table><div class="pageFooter"></div>
+ 
+</body>
+</html>
