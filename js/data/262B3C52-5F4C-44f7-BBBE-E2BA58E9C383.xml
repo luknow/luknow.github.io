@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.5.1.11.2:1", "", "Wymagania funkcjonalne wyświetlenie profilu kandydatów", "EARoot/EA5/EA1/EA11/EA2/EA294.htm", "188.png", "4", "0", "", "Custom diagram0","{E8B4D9AC-9EAB-4a80-A53C-C64F126E6A57}");
-tocTab[tocTab.length] = new Array("0.5.1.11.2:2", "", "«Functional» Brak profili o podanych kryteriach", "EARoot/EA5/EA1/EA11/EA2/EA297.htm", "19.png", "E80", "0", "", "Requirement0","{FF7C07FD-FC5E-4ce0-A96E-F2EAF72BF0AA}");
-tocTab[tocTab.length] = new Array("0.5.1.11.2:3", "", "«Functional» Wyświetlenie pełnej wersji profilu kandydata", "EARoot/EA5/EA1/EA11/EA2/EA298.htm", "19.png", "E19", "0", "", "Requirement0","{DE498F1D-69F9-447c-A5E4-6281A87F2912}");
-tocTab[tocTab.length] = new Array("0.5.1.11.2:4", "", "«Functional» Wyświetlenie skróconej wersji profilu kandydata", "EARoot/EA5/EA1/EA11/EA2/EA299.htm", "19.png", "E18", "0", "", "Requirement0","{6DDF019D-0CFA-4f93-8FF9-1100CC7E6EB3}");
