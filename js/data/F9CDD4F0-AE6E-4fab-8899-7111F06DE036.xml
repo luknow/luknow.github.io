@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.4.12:1", "", "Zdjęcia", "EARoot/EA4/EA12/EA105.htm", "180.png", "32", "0", "", "Use Case diagram0","{CD115F91-6744-4999-9969-477966651895}");
-tocTab[tocTab.length] = new Array("0.4.12:2", "", "Ustawić zdjęcie profilowe", "EARoot/EA4/EA12/EA108.htm", "7.png", "E212", "0", "", "UseCase0","{15E1E916-332B-44ff-A96E-813D0A8D4EBB}");
-tocTab[tocTab.length] = new Array("0.4.12:3", "", "Zmodyfikować galerię profilową", "EARoot/EA4/EA12/EA109.htm", "7.png", "E211", "0", "", "UseCase0","{7B2E0A49-2AAC-49de-A62A-000B48C47782}");

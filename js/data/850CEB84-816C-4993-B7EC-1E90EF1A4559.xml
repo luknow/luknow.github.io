@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.4.13:1", "", "Zgłoszenie i blokowanie", "EARoot/EA4/EA13/EA110.htm", "180.png", "33", "0", "", "Use Case diagram0","{1F939E97-0B1A-45ad-A1F6-EA8C3D9D8737}");
-tocTab[tocTab.length] = new Array("0.4.13:2", "", "Wysłać zgłoszenie", "EARoot/EA4/EA13/EA113.htm", "7.png", "E217", "0", "", "UseCase0","{B0CF2871-99EF-491f-8C2B-8BCA5256A8BC}");
-tocTab[tocTab.length] = new Array("0.4.13:3", "", "Zmodyfikować blokadę", "EARoot/EA4/EA13/EA114.htm", "7.png", "E219", "0", "", "UseCase0","{76B4BDA1-1DE1-470d-936D-6D6A854262A1}");
