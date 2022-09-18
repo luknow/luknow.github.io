@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Głosowanie pozytywne</title>
+<title>Głosowanie super głosem</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Głosowanie pozytywne", " : "))</script> WYM-WF-008 : Public  &lt;&lt;Functional&gt;&gt; Requirement</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Głosowanie super głosem", " : "))</script> WYM-WF-010 : Public  &lt;&lt;Functional&gt;&gt; Requirement</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14.02.2021 13:59:06</td>
+			<td width="85%" class="ObjectDetailsValue">14.02.2021 14:02:34</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">30.01.2022 00:53:02</td>
+			<td class="ObjectDetailsValue">30.01.2022 00:53:11</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{19669621-A2DD-423b-BFAD-77E8400D53F1}</td>
+			<td class="ObjectDetailsValue">{8530B032-DE58-4c43-8955-88425A0FBB11}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA154.htm">Wymagania funkcjonalne głosowanie</a></td>
+			<td class="ObjectDetailsValue"><a href="EA153.htm">Wymagania funkcjonalne głosowanie</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">U&#380;ytkownik musi mie&#263; mo&#380;liwo&#347;&#263; oddania g&#322;os pozytywny dla&lt;br/&gt;profil.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">U&#380;ytkownik musi mie&#263; mo&#380;liwo&#347;&#263; oddania super g&#322;os dla profil.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -116,9 +116,24 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints293" onclick="parent.toggleDiv('detailsDIVConstraints293','DetailsImageConstraints293')" />Details:
-							<div id="detailsDIVConstraints293" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">U&#380;ytkownik dziennie mo&#380;e odda&#263; maksymalnie 50 g&#322;os pozytywny.&lt;br/&gt;</div>
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints298" onclick="parent.toggleDiv('detailsDIVConstraints298','DetailsImageConstraints298')" />Details:
+							<div id="detailsDIVConstraints298" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">U&#380;ytkownik dziennie mo&#380;e odda&#263; maksymalnie 3 super g&#322;os.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie 2</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints299" onclick="parent.toggleDiv('detailsDIVConstraints299','DetailsImageConstraints299')" />Details:
+							<div id="detailsDIVConstraints299" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">U&#380;ytkownik mo&#380;e odda&#263; super g&#322;os tylko przegl&#261;daj&#261;c profil kandydata w pe&#322;na wersja profilu.&lt;br/&gt;</div>
 
 							</div>
 						</div>

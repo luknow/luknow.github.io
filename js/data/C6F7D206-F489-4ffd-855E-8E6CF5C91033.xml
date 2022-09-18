@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.6.2.3:1", "", "Wymagania niefunkcjonalne preferencje wyszukiwania profilu kandydata", "EARoot/EA6/EA2/EA3/EA295.htm", "188.png", "23", "0", "", "Custom diagram0","{4974A23B-24D1-460f-9C16-98D120033DF8}");
-tocTab[tocTab.length] = new Array("0.6.2.3:2", "", "«NonfunctionalRequirement» Informacja o braku profili o podanych kryteriach", "EARoot/EA6/EA2/EA3/EA298.htm", "19.png", "E115", "0", "", "Requirement0","{7B56400E-F355-4338-A18E-063043A54ADC}");
+tocTab[tocTab.length] = new Array("0.6.2.3:1", "", "Wymagania niefunkcjonalne preferencje wyszukiwania profilu kandydata", "EARoot/EA6/EA2/EA3/EA294.htm", "188.png", "23", "0", "", "Custom diagram0","{4974A23B-24D1-460f-9C16-98D120033DF8}");
+tocTab[tocTab.length] = new Array("0.6.2.3:2", "", "«NonfunctionalRequirement» Informacja o braku profili o podanych kryteriach", "EARoot/EA6/EA2/EA3/EA297.htm", "19.png", "E115", "0", "", "Requirement0","{7B56400E-F355-4338-A18E-063043A54ADC}");
