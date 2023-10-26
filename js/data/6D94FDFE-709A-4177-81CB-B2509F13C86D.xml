@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.5.7:1", "", "Preferencje wyszukiwania profilu", "EARoot/EA5/EA7/EA94.htm", "180.png", "28", "0", "", "Use Case diagram0","{3147B465-B31D-49bd-B944-4BD724D190A1}");
-tocTab[tocTab.length] = new Array("0.5.7:2", "", "Zmodyfikować preferencje wyszukiwania profilu", "EARoot/EA5/EA7/EA97.htm", "7.png", "E180", "0", "", "UseCase0","{9D68C170-EC76-42fc-AB46-D92759B2C0FE}");
+tocTab[tocTab.length] = new Array("0.5.7:1", "", "Preferencje wyszukiwania profilu", "EARoot/EA5/EA7/EA102.htm", "180.png", "28", "0", "", "Use Case diagram0","{3147B465-B31D-49bd-B944-4BD724D190A1}");
+tocTab[tocTab.length] = new Array("0.5.7:2", "", "Zmodyfikować preferencje wyszukiwania profilu", "EARoot/EA5/EA7/EA105.htm", "7.png", "E180", "0", "", "UseCase0","{9D68C170-EC76-42fc-AB46-D92759B2C0FE}");

@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.7.1:1", "", "Podłączenie instagrama", "EARoot/EA7/EA1/EA314.htm", "185.png", "44", "0", "", "Sequence diagram0","{81E1C3B2-8C53-42d1-ABD2-93E22ACBFDFF}");
-tocTab[tocTab.length] = new Array("0.7.1:2", "", "", "EARoot/EA7/EA1/EA317.htm", "101.png", "E300", "0", "", "InteractionFragment0","{DFD9F1F5-9A65-455a-8929-69879ADF292D}");
-tocTab[tocTab.length] = new Array("0.7.1:3", "", "", "EARoot/EA7/EA1/EA318.htm", "207.png", "E296", "0", "", "Interaction0","{EEAF3507-BC78-4950-8AA8-EFB9F9E1172B}");
-tocTab[tocTab.length] = new Array("0.7.1:4", "", "Weryfikacja przesłanych danych", "EARoot/EA7/EA1/EA320.htm", "101.png", "E301", "0", "", "InteractionFragment0","{F93EAB26-1B3C-412b-8F83-0C34C467EE94}");
-tocTab[tocTab.length] = new Array("0.7.1:5", "", "Facebook Randki", "EARoot/EA7/EA1/EA321.htm", "57.png", "E294", "0", "", "Sequence0","{53715216-7D41-4073-95FE-BDC60E79D1F0}");
-tocTab[tocTab.length] = new Array("0.7.1:6", "", "Instagram", "EARoot/EA7/EA1/EA322.htm", "57.png", "E295", "0", "", "Sequence0","{E04E9E0F-130F-4cec-93CC-343FEDE4D9E1}");
-tocTab[tocTab.length] = new Array("0.7.1:7", "", "Użytkownik", "EARoot/EA7/EA1/EA323.htm", "6.png", "E293", "0", "", "Actor0","{B218F6D2-8084-431b-885C-D71B4E1182F3}");
+tocTab[tocTab.length] = new Array("0.7.1:1", "", "Podłączenie instagrama", "EARoot/EA7/EA1/EA322.htm", "185.png", "44", "0", "", "Sequence diagram0","{81E1C3B2-8C53-42d1-ABD2-93E22ACBFDFF}");
+tocTab[tocTab.length] = new Array("0.7.1:2", "", "", "EARoot/EA7/EA1/EA325.htm", "207.png", "E296", "0", "", "Interaction0","{EEAF3507-BC78-4950-8AA8-EFB9F9E1172B}");
+tocTab[tocTab.length] = new Array("0.7.1:3", "", "", "EARoot/EA7/EA1/EA327.htm", "101.png", "E300", "0", "", "InteractionFragment0","{DFD9F1F5-9A65-455a-8929-69879ADF292D}");
+tocTab[tocTab.length] = new Array("0.7.1:4", "", "Weryfikacja przesłanych danych", "EARoot/EA7/EA1/EA328.htm", "101.png", "E301", "0", "", "InteractionFragment0","{F93EAB26-1B3C-412b-8F83-0C34C467EE94}");
+tocTab[tocTab.length] = new Array("0.7.1:5", "", "Facebook Randki", "EARoot/EA7/EA1/EA329.htm", "57.png", "E294", "0", "", "Sequence0","{53715216-7D41-4073-95FE-BDC60E79D1F0}");
+tocTab[tocTab.length] = new Array("0.7.1:6", "", "Instagram", "EARoot/EA7/EA1/EA330.htm", "57.png", "E295", "0", "", "Sequence0","{E04E9E0F-130F-4cec-93CC-343FEDE4D9E1}");
+tocTab[tocTab.length] = new Array("0.7.1:7", "", "Użytkownik", "EARoot/EA7/EA1/EA331.htm", "6.png", "E293", "0", "", "Actor0","{B218F6D2-8084-431b-885C-D71B4E1182F3}");

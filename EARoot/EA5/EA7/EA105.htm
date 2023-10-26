@@ -1,0 +1,522 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Zmodyfikować preferencje wyszukiwania profilu</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Zmodyfikować preferencje wyszukiwania profilu", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28.02.2021 13:51:07</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">05.02.2022 01:12:15</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Lukas</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{9D68C170-EC76-42fc-AB46-D92759B2C0FE}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA102.htm">Preferencje wyszukiwania profilu</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">U&#380;ytkownik ma mo&#380;liwo&#347;&#263; wyszukania profil uwzgl&#281;dniaj&#261;c: &lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Odleg&#322;o&#347;&#263;,&lt;/li&gt;&lt;li&gt;P&#322;e&#263;,&lt;/li&gt;&lt;li&gt;Posiadanie dzieci,&lt;/li&gt;&lt;li&gt;Wiek,&lt;/li&gt;&lt;li&gt;Poziom wykszta&#322;cenia,&lt;/li&gt;&lt;li&gt;Wzrost,&lt;/li&gt;&lt;li&gt;Wyznanie,&lt;/li&gt;&lt;li&gt;Znajomo&#347;&#263; j&#281;zyk&#243;w.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA79.htm">Użytkownik</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink252" onclick="parent.toggleDiv('detailsDIVLink252','DetailsImageLink252')" />Details:
+							<div id="detailsDIVLink252" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Warunek wstępny 1</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints253" onclick="parent.toggleDiv('detailsDIVConstraints253','DetailsImageConstraints253')" />Details:
+							<div id="detailsDIVConstraints253" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">U&#380;ytkownik musi by&#263; zalogowany do aplikacji.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie kryterium odległości</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints254" onclick="parent.toggleDiv('detailsDIVConstraints254','DetailsImageConstraints254')" />Details:
+							<div id="detailsDIVConstraints254" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla zakresu odleg&#322;o&#347;ci to warto&#347;ci z zakresu 5-400 km.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie kryterium płci</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints255" onclick="parent.toggleDiv('detailsDIVConstraints255','DetailsImageConstraints255')" />Details:
+							<div id="detailsDIVConstraints255" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla p&#322;ci to:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;M&#281;&#380;czyzna,&lt;/li&gt;&lt;li&gt;Kobieta,&lt;/li&gt;&lt;li&gt;Bez r&#243;&#380;nicy.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie kryterium posiadania dzieci</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints256" onclick="parent.toggleDiv('detailsDIVConstraints256','DetailsImageConstraints256')" />Details:
+							<div id="detailsDIVConstraints256" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla posiadanych dzieci to:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Nie ma dzieci,&lt;/li&gt;&lt;li&gt;Ma dzieci,&lt;/li&gt;&lt;li&gt;Bez r&#243;&#380;nicy.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie kryterium wieku</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints257" onclick="parent.toggleDiv('detailsDIVConstraints257','DetailsImageConstraints257')" />Details:
+							<div id="detailsDIVConstraints257" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla zakresu odleg&#322;o&#347;ci to warto&#347;ci z zakresu 18-100 lat.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie kryterium poziomu wykształcenia</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints258" onclick="parent.toggleDiv('detailsDIVConstraints258','DetailsImageConstraints258')" />Details:
+							<div id="detailsDIVConstraints258" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla poziomu wykszta&#322;cenia to:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Uko&#324;czenie szko&#322;y &#347;redniej,&lt;/li&gt;&lt;li&gt;Uko&#324;czenie szko&#322;y wy&#380;szej,&lt;/li&gt;&lt;li&gt;Uko&#324;czenie studi&#243;w podyplomowych,&lt;/li&gt;&lt;li&gt;Bez r&#243;&#380;nicy.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie kryterium wzrostu</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints259" onclick="parent.toggleDiv('detailsDIVConstraints259','DetailsImageConstraints259')" />Details:
+							<div id="detailsDIVConstraints259" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla zakresu wzrostu to lista warto&#347;ci z zakresu 91-214 cm.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie kryterium wyznaniowe</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints260" onclick="parent.toggleDiv('detailsDIVConstraints260','DetailsImageConstraints260')" />Details:
+							<div id="detailsDIVConstraints260" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla przekona&#324; religijnych to:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Agnostyk,&lt;/li&gt;&lt;li&gt;Ateista,&lt;/li&gt;&lt;li&gt;Buddysta,&lt;/li&gt;&lt;li&gt;Chrze&#347;cijanin,&lt;/li&gt;&lt;li&gt;Hinduista,&lt;/li&gt;&lt;li&gt;Katolik,&lt;/li&gt;&lt;li&gt;Muz&#322;umanin,&lt;/li&gt;&lt;li&gt;Sikh,&lt;/li&gt;&lt;li&gt;Wyznawca judaizmu,&lt;/li&gt;&lt;li&gt;Zainteresowanie duchowo&#347;ci&#261;,&lt;/li&gt;&lt;li&gt;Bez r&#243;&#380;nicy.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Ograniczenie kryterium językowe</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints261" onclick="parent.toggleDiv('detailsDIVConstraints261','DetailsImageConstraints261')" />Details:
+							<div id="detailsDIVConstraints261" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Mo&#380;liwe warto&#347;ci do wyboru dla znajomo&#347;ci j&#281;zyk&#243;w to j&#281;zki, kt&#243;re znajduj&#261; si&#281; w bazie.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Warunek końcowy 1</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints262" onclick="parent.toggleDiv('detailsDIVConstraints262','DetailsImageConstraints262')" />Details:
+							<div id="detailsDIVConstraints262" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">W wyniku wprowadzonych zmian u&#380;ytkownikowi zostaj&#261; wy&#347;wietlone tylko te profile, kt&#243;re odpowiadaj&#261; jego upodobaniom.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Zmodyfikowanie kryterium odległości</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario263" onclick="parent.toggleDiv('detailsDIVScenario263','DetailsImageScenario263')" />Details:
+							<div id="detailsDIVScenario263" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do ustawie&#324; aplikacji.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zmodyfikowa&#263; kryterium odleg&#322;o&#347;ci.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zapisuje wprowadzon&#261; zmian&#281;.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Zmodyfikowanie kryterium płci</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario264" onclick="parent.toggleDiv('detailsDIVScenario264','DetailsImageScenario264')" />Details:
+							<div id="detailsDIVScenario264" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do ustawie&#324; aplikacji.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zmodyfikowa&#263; kryterium p&#322;ci.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zapisuje wprowadzon&#261; zmian&#281;.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Zmodyfikowanie kryterium posiadania dzieci</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario265" onclick="parent.toggleDiv('detailsDIVScenario265','DetailsImageScenario265')" />Details:
+							<div id="detailsDIVScenario265" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do ustawie&#324; aplikacji.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zmodyfikowa&#263; kryterium posiadania dzieci.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zapisuje wprowadzon&#261; zmian&#281;.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Zmodyfikowanie kryterium wieku</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario266" onclick="parent.toggleDiv('detailsDIVScenario266','DetailsImageScenario266')" />Details:
+							<div id="detailsDIVScenario266" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do ustawie&#324; aplikacji.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zmodyfikowa&#263; kryterium wieku.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zapisuje wprowadzon&#261; zmian&#281;.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Zmodyfikowanie kryterium poziomu wykształcenia</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario267" onclick="parent.toggleDiv('detailsDIVScenario267','DetailsImageScenario267')" />Details:
+							<div id="detailsDIVScenario267" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do ustawie&#324; aplikacji.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zmodyfikowa&#263; kryterium poziomu wykszta&#322;cenia.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zapisuje wprowadzon&#261; zmian&#281;.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Zmodyfikowanie kryterium wzrostu</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario268" onclick="parent.toggleDiv('detailsDIVScenario268','DetailsImageScenario268')" />Details:
+							<div id="detailsDIVScenario268" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do ustawie&#324; aplikacji.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zmodyfikowa&#263; kryterium wzrostu.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zapisuje wprowadzon&#261; zmian&#281;.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Zmodyfikowanie kryterium wyznaniowe</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario269" onclick="parent.toggleDiv('detailsDIVScenario269','DetailsImageScenario269')" />Details:
+							<div id="detailsDIVScenario269" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do ustawie&#324; aplikacji.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zmodyfikowa&#263; kryterium wyznaniowe.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zapisuje wprowadzon&#261; zmian&#281;.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Zmodyfikowanie kryterium językowe</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario270" onclick="parent.toggleDiv('detailsDIVScenario270','DetailsImageScenario270')" />Details:
+							<div id="detailsDIVScenario270" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do ustawie&#324; aplikacji.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zmodyfikowa&#263; kryterium j&#281;zykowe.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik zapisuje wprowadzon&#261; zmian&#281;.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA1/EA6/EA209.htm">«Functional» Kryterium płci</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA1/EA6/EA211.htm">«Functional» Kryterium poziomu wykształcenia</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA1/EA6/EA210.htm">«Functional» Kryterium posiadania dzieci</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA1/EA6/EA207.htm">«Functional» Kryterium języków</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA1/EA6/EA214.htm">«Functional» Kryterium wzrostu</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA1/EA6/EA212.htm">«Functional» Kryterium wieku</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA1/EA6/EA208.htm">«Functional» Kryterium odległości</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA1/EA6/EA213.htm">«Functional» Kryterium wyznaniowe</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
