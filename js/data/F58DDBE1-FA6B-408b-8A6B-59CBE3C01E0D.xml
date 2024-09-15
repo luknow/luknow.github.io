@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.6.1.2:1", "", "Wymagania funkcjonalne głosowanie", "EARoot/EA6/EA1/EA2/EA161.htm", "188.png", "7", "0", "", "Custom diagram0","{DC38D546-9887-4b02-A711-210DBB4EB883}");
-tocTab[tocTab.length] = new Array("0.6.1.2:2", "", "«Functional» Głosowanie komentarzem", "EARoot/EA6/EA1/EA2/EA164.htm", "19.png", "E131", "0", "", "Requirement0","{900D8EDC-D743-4ba9-B2DE-5A2279BABE65}");
-tocTab[tocTab.length] = new Array("0.6.1.2:3", "", "«Functional» Głosowanie negatywne", "EARoot/EA6/EA1/EA2/EA165.htm", "19.png", "E64", "0", "", "Requirement0","{B01E8FF3-BD7E-4997-A946-60165A6B40A6}");
-tocTab[tocTab.length] = new Array("0.6.1.2:4", "", "«Functional» Głosowanie pozytywne", "EARoot/EA6/EA1/EA2/EA166.htm", "19.png", "E63", "0", "", "Requirement0","{19669621-A2DD-423b-BFAD-77E8400D53F1}");
-tocTab[tocTab.length] = new Array("0.6.1.2:5", "", "«Functional» Głosowanie super głosem", "EARoot/EA6/EA1/EA2/EA167.htm", "19.png", "E65", "0", "", "Requirement0","{8530B032-DE58-4c43-8955-88425A0FBB11}");
-tocTab[tocTab.length] = new Array("0.6.1.2:6", "", "«Functional» Ponowne głosowanie", "EARoot/EA6/EA1/EA2/EA168.htm", "19.png", "E91", "0", "", "Requirement0","{5FFD9369-1ACB-4a92-B0B6-30D59BDAC1A7}");
-tocTab[tocTab.length] = new Array("0.6.1.2:7", "", "«Functional» Przekroczenie limitu głos pozytywny", "EARoot/EA6/EA1/EA2/EA169.htm", "19.png", "E67", "0", "", "Requirement0","{AAAB057A-8897-4c97-89BB-99ABDF3F40D1}");
-tocTab[tocTab.length] = new Array("0.6.1.2:8", "", "«Functional» Przekroczenie limitu super głosów", "EARoot/EA6/EA1/EA2/EA170.htm", "19.png", "E68", "0", "", "Requirement0","{58CBF4EC-DC77-4dae-AED3-028E23CF8B47}");
+tocTab[tocTab.length] = new Array("0.6.1.2:1", "", "Wymagania funkcjonalne głosowanie", "EARoot/EA6/EA1/EA2/EA101.htm", "188.png", "7", "0", "", "Custom diagram0","{DC38D546-9887-4b02-A711-210DBB4EB883}");
+tocTab[tocTab.length] = new Array("0.6.1.2:2", "", "«Functional» Głosowanie komentarzem", "EARoot/EA6/EA1/EA2/EA104.htm", "19.png", "E131", "0", "", "Requirement0","{900D8EDC-D743-4ba9-B2DE-5A2279BABE65}");
+tocTab[tocTab.length] = new Array("0.6.1.2:3", "", "«Functional» Głosowanie negatywne", "EARoot/EA6/EA1/EA2/EA105.htm", "19.png", "E64", "0", "", "Requirement0","{B01E8FF3-BD7E-4997-A946-60165A6B40A6}");
+tocTab[tocTab.length] = new Array("0.6.1.2:4", "", "«Functional» Głosowanie pozytywne", "EARoot/EA6/EA1/EA2/EA106.htm", "19.png", "E63", "0", "", "Requirement0","{19669621-A2DD-423b-BFAD-77E8400D53F1}");
+tocTab[tocTab.length] = new Array("0.6.1.2:5", "", "«Functional» Głosowanie super głosem", "EARoot/EA6/EA1/EA2/EA107.htm", "19.png", "E65", "0", "", "Requirement0","{8530B032-DE58-4c43-8955-88425A0FBB11}");
+tocTab[tocTab.length] = new Array("0.6.1.2:6", "", "«Functional» Ponowne głosowanie", "EARoot/EA6/EA1/EA2/EA108.htm", "19.png", "E91", "0", "", "Requirement0","{5FFD9369-1ACB-4a92-B0B6-30D59BDAC1A7}");
+tocTab[tocTab.length] = new Array("0.6.1.2:7", "", "«Functional» Przekroczenie limitu głos pozytywny", "EARoot/EA6/EA1/EA2/EA109.htm", "19.png", "E67", "0", "", "Requirement0","{AAAB057A-8897-4c97-89BB-99ABDF3F40D1}");
+tocTab[tocTab.length] = new Array("0.6.1.2:8", "", "«Functional» Przekroczenie limitu super głosów", "EARoot/EA6/EA1/EA2/EA110.htm", "19.png", "E68", "0", "", "Requirement0","{58CBF4EC-DC77-4dae-AED3-028E23CF8B47}");

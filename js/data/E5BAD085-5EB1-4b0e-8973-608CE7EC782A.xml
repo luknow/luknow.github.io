@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.6.2.1", "1", "Czat", "EARoot/EA6/EA2/EA1/EA289.htm", "4.png", "", "", "{7180FFF6-F2C3-4bc5-95E2-E0073380854A}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.2", "1", "Głosowanie", "EARoot/EA6/EA2/EA2/EA296.htm", "4.png", "", "", "{FDD5DBE0-ECC6-47fd-97D0-38FC900244BB}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.3", "1", "Preferencje wyszukiwania profilu kandydata", "EARoot/EA6/EA2/EA3/EA304.htm", "4.png", "", "", "{C6F7D206-F489-4ffd-855E-8E6CF5C91033}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.4", "1", "Wyświetlenie profilu", "EARoot/EA6/EA2/EA4/EA306.htm", "4.png", "", "", "{F5A808A9-2A5F-4ccb-93E2-8771DA2BE86B}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.1", "1", "Czat", "EARoot/EA6/EA2/EA1/EA229.htm", "4.png", "", "", "{7180FFF6-F2C3-4bc5-95E2-E0073380854A}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.2", "1", "Głosowanie", "EARoot/EA6/EA2/EA2/EA236.htm", "4.png", "", "", "{FDD5DBE0-ECC6-47fd-97D0-38FC900244BB}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.3", "1", "Preferencje wyszukiwania profilu kandydata", "EARoot/EA6/EA2/EA3/EA244.htm", "4.png", "", "", "{C6F7D206-F489-4ffd-855E-8E6CF5C91033}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.4", "1", "Wyświetlenie profilu", "EARoot/EA6/EA2/EA4/EA246.htm", "4.png", "", "", "{F5A808A9-2A5F-4ccb-93E2-8771DA2BE86B}", "Package");
