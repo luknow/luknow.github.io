@@ -1,0 +1,863 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Manage Profile</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Manage Profile", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28.02.2021 14:06:39</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">30.09.2024 19:35:13</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Lukas</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{CE934557-7EA8-4674-8EA0-332215261ECE}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA238.htm">Use cases</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">The user has the ability to:&lt;br/&gt;&lt;ol&gt;<br />&lt;li&gt;Modify informations,&lt;/li&gt;&lt;li&gt;Modify the gallery,&lt;/li&gt;&lt;li&gt;Delete the profile.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA252.htm">User</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink350" onclick="parent.toggleDiv('detailsDIVLink350','DetailsImageLink350')" />Details:
+							<div id="detailsDIVLink350" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Pre condition</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints351" onclick="parent.toggleDiv('detailsDIVConstraints351','DetailsImageConstraints351')" />Details:
+							<div id="detailsDIVConstraints351" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">The user must be logged into the application.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.1. Hobbies and interests limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints352" onclick="parent.toggleDiv('detailsDIVConstraints352','DetailsImageConstraints352')" />Details:
+							<div id="detailsDIVConstraints352" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values &#8203;&#8203;to select for hobbies and interests are those that are in the database. &lt;br/&gt;The user can specify a maximum of 10 values &#8203;&#8203;for hobbies and interests.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.2. Hometown limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints353" onclick="parent.toggleDiv('detailsDIVConstraints353','DetailsImageConstraints353')" />Details:
+							<div id="detailsDIVConstraints353" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for hometown are those that are in the database. &lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.3. Workplace limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints354" onclick="parent.toggleDiv('detailsDIVConstraints354','DetailsImageConstraints354')" />Details:
+							<div id="detailsDIVConstraints354" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for workplace are those that are in the database. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.4. High school limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints355" onclick="parent.toggleDiv('detailsDIVConstraints355','DetailsImageConstraints355')" />Details:
+							<div id="detailsDIVConstraints355" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for high school are those that are in the database. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.5. University limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints356" onclick="parent.toggleDiv('detailsDIVConstraints356','DetailsImageConstraints356')" />Details:
+							<div id="detailsDIVConstraints356" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for university are those that are in the database. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.6. Smoking cigarettes limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints357" onclick="parent.toggleDiv('detailsDIVConstraints357','DetailsImageConstraints357')" />Details:
+							<div id="detailsDIVConstraints357" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for smoking cigarettes are those that are given in Drug enumeration.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.7. Gender limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints358" onclick="parent.toggleDiv('detailsDIVConstraints358','DetailsImageConstraints358')" />Details:
+							<div id="detailsDIVConstraints358" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for gender are those that are given in Gender enumeration.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.8. Kids limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints359" onclick="parent.toggleDiv('detailsDIVConstraints359','DetailsImageConstraints359')" />Details:
+							<div id="detailsDIVConstraints359" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for kids are those that are given in Kids enumeration.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.9. Education limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints360" onclick="parent.toggleDiv('detailsDIVConstraints360','DetailsImageConstraints360')" />Details:
+							<div id="detailsDIVConstraints360" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for education are those that are given in Education enumeration.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.10. Religion limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints361" onclick="parent.toggleDiv('detailsDIVConstraints361','DetailsImageConstraints361')" />Details:
+							<div id="detailsDIVConstraints361" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for religion are those that are given in Religion enumeration.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.11. Alcohol limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints362" onclick="parent.toggleDiv('detailsDIVConstraints362','DetailsImageConstraints362')" />Details:
+							<div id="detailsDIVConstraints362" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for alcohol are those that are given in Drug enumeration.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.12. Job title limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints363" onclick="parent.toggleDiv('detailsDIVConstraints363','DetailsImageConstraints363')" />Details:
+							<div id="detailsDIVConstraints363" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for job title are those that are in the database. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.13. Status limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints364" onclick="parent.toggleDiv('detailsDIVConstraints364','DetailsImageConstraints364')" />Details:
+							<div id="detailsDIVConstraints364" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for status are those that are given in Status enumeration.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.14. Height limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints365" onclick="parent.toggleDiv('detailsDIVConstraints365','DetailsImageConstraints365')" />Details:
+							<div id="detailsDIVConstraints365" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for height are: 91 cm - 214 cm.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.15. Language limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints366" onclick="parent.toggleDiv('detailsDIVConstraints366','DetailsImageConstraints366')" />Details:
+							<div id="detailsDIVConstraints366" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for languages are those that are in the database. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">1.16. Description limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints367" onclick="parent.toggleDiv('detailsDIVConstraints367','DetailsImageConstraints367')" />Details:
+							<div id="detailsDIVConstraints367" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Description can not exceed 500 characters&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">2.1. Photo formats limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints368" onclick="parent.toggleDiv('detailsDIVConstraints368','DetailsImageConstraints368')" />Details:
+							<div id="detailsDIVConstraints368" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Acceptable photo formats are:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;JPG,&lt;/li&gt;&lt;li&gt;PNG,&lt;/li&gt;&lt;li&gt;GIF.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">2.2. Number of photos limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints369" onclick="parent.toggleDiv('detailsDIVConstraints369','DetailsImageConstraints369')" />Details:
+							<div id="detailsDIVConstraints369" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">The maximum number of photos that a user can post on their profile is 12 photos.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">2.3. Maximum resolution of photos limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints370" onclick="parent.toggleDiv('detailsDIVConstraints370','DetailsImageConstraints370')" />Details:
+							<div id="detailsDIVConstraints370" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">The maximum acceptable photo resolution is 1080px x 1080px.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">2.4. Minimum resolution of photos limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints371" onclick="parent.toggleDiv('detailsDIVConstraints371','DetailsImageConstraints371')" />Details:
+							<div id="detailsDIVConstraints371" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">The minimum acceptable photo resolution is 600px x 600px.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">2.5. Maximum size of photos limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints372" onclick="parent.toggleDiv('detailsDIVConstraints372','DetailsImageConstraints372')" />Details:
+							<div id="detailsDIVConstraints372" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">The maximum acceptable photo size is 30 MB.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Post condition gallery</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints373" onclick="parent.toggleDiv('detailsDIVConstraints373','DetailsImageConstraints373')" />Details:
+							<div id="detailsDIVConstraints373" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a result of the actions taken, the user&#39;s profile gallery has been modified.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Post condition delete profile </td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints374" onclick="parent.toggleDiv('detailsDIVConstraints374','DetailsImageConstraints374')" />Details:
+							<div id="detailsDIVConstraints374" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a result of the actions taken, the user&#39;s facebook dating profile has been deleted.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Post condition informations</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints375" onclick="parent.toggleDiv('detailsDIVConstraints375','DetailsImageConstraints375')" />Details:
+							<div id="detailsDIVConstraints375" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a result of the actions taken, the user&#39;s informations have been modified.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1. Adding a photo to the gallery</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario376" onclick="parent.toggleDiv('detailsDIVScenario376','DetailsImageScenario376')" />Details:
+							<div id="detailsDIVScenario376" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to profile gallery.&lt;/li&gt;&lt;li&gt;The user searches for and selects a photo located on his device.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1.1. Adding a photo to the gallery - invalid photo resolution</td>
+					<td width="10%" class="TableRow">Exception</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario377" onclick="parent.toggleDiv('detailsDIVScenario377','DetailsImageScenario377')" />Details:
+							<div id="detailsDIVScenario377" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user receives a message about the resolution being too high/low.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1.2. Adding a photo to the gallery - invalid photo size</td>
+					<td width="10%" class="TableRow">Exception</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario378" onclick="parent.toggleDiv('detailsDIVScenario378','DetailsImageScenario378')" />Details:
+							<div id="detailsDIVScenario378" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user receives a message about the size being too big.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1.3. Adding a photo to the gallery - invalid photo format</td>
+					<td width="10%" class="TableRow">Exception</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario379" onclick="parent.toggleDiv('detailsDIVScenario379','DetailsImageScenario379')" />Details:
+							<div id="detailsDIVScenario379" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user receives a message about the format being unacceptable.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1.4. Adding a photo to the gallery - number of photos exceeded</td>
+					<td width="10%" class="TableRow">Exception</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario380" onclick="parent.toggleDiv('detailsDIVScenario380','DetailsImageScenario380')" />Details:
+							<div id="detailsDIVScenario380" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user receives a message that the allowed number of photos in the profile gallery has been exceeded.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">2. Deleting a photo from the gallery</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario381" onclick="parent.toggleDiv('detailsDIVScenario381','DetailsImageScenario381')" />Details:
+							<div id="detailsDIVScenario381" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to profile gallery.&lt;/li&gt;&lt;li&gt;The user searches for and selects a photo for deletion.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">3. Deleting a profile</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario382" onclick="parent.toggleDiv('detailsDIVScenario382','DetailsImageScenario382')" />Details:
+							<div id="detailsDIVScenario382" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to profile.&lt;/li&gt;&lt;li&gt;The user indicates intend to delete the profile.&lt;/li&gt;&lt;li&gt;The user confirms intention to delete the profile.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">4. Modifying informations</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario383" onclick="parent.toggleDiv('detailsDIVScenario383','DetailsImageScenario383')" />Details:
+							<div id="detailsDIVScenario383" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to profile.&lt;/li&gt;&lt;li&gt;The user modifies informations.&lt;/li&gt;&lt;li&gt;The user saves the modification.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">4.1. Modifying informations - description characters exceeded</td>
+					<td width="10%" class="TableRow">Exception</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario384" onclick="parent.toggleDiv('detailsDIVScenario384','DetailsImageScenario384')" />Details:
+							<div id="detailsDIVScenario384" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user receives a message that: the allowed number of characters in the description has been exceeded.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">4.2. Modifying informations - hobby and interest exceeded</td>
+					<td width="10%" class="TableRow">Exception</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario385" onclick="parent.toggleDiv('detailsDIVScenario385','DetailsImageScenario385')" />Details:
+							<div id="detailsDIVScenario385" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user receives a message that: the allowed number of values for hobbies and interests has been exceeded. Please specify up to 10 values.&lt;/li&gt;&lt;/ol&gt;<br />&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA2/EA89.htm">«Functional» Delete profile</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA137.htm">«Functional» Status</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA136.htm">«Functional» Smoking cigarettes</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA135.htm">«Functional» Religion</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA124.htm">«Functional» Alcohol</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA6/EA119.htm">«Functional» Delete photo</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA6/EA118.htm">«Functional» Add a photo to the gallery</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA127.htm">«Functional» Gender</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA128.htm">«Functional» Height</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA139.htm">«Functional» Workplace</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA138.htm">«Functional» University</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA126.htm">«Functional» Education</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA131.htm">«Functional» Interests and hobby</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA6/EA120.htm">«Functional» Profile photo</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA134.htm">«Functional» Language</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA133.htm">«Functional» Kids</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA132.htm">«Functional» Job position</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA125.htm">«Functional» Description</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA130.htm">«Functional» Hometown</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA7/EA129.htm">«Functional» High school</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

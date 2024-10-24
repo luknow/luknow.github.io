@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.1.1:1", "", "Reporting profile", "EARoot/EA1/EA1/EA3.htm", "181.png", "43", "0", "", "Activity diagram0","{53506D52-06E5-4ebe-8202-AA69086E338F}");
+tocTab[tocTab.length] = new Array("0.1.1:2", "", "Administrator", "EARoot/EA1/EA1/EA6.htm", "116.png", "E281", "0", "", "ActivityPartition0","{C53044F3-3740-4b50-86E6-869B441D8B11}");
+tocTab[tocTab.length] = new Array("0.1.1:3", "", "User", "EARoot/EA1/EA1/EA7.htm", "116.png", "E280", "0", "", "ActivityPartition0","{94108160-4135-44c3-B3AD-1CEABE1AA70B}");
+tocTab[tocTab.length] = new Array("0.1.1:4", "", "User receives the response", "EARoot/EA1/EA1/EA8.htm", "104.png", "E285", "E280", "", "Action0","{26F2179E-48DE-41ff-85D2-3D932BD3ECAC}");
+tocTab[tocTab.length] = new Array("0.1.1:5", "", "Start", "EARoot/EA1/EA1/EA9.htm", "68.png", "E276", "E280", "", "StateNode0","{4602F629-575B-4f66-BB4D-ECF8639D009C}");
+tocTab[tocTab.length] = new Array("0.1.1:6", "", "Stop", "EARoot/EA1/EA1/EA10.htm", "69.png", "E277", "E280", "", "StateNode0","{D39B158E-105D-4994-8EEA-F81273409BA4}");
+tocTab[tocTab.length] = new Array("0.1.1:7", "", "User selects the reason for report", "EARoot/EA1/EA1/EA11.htm", "104.png", "E279", "E280", "", "Action0","{E10289C2-B459-427e-A4CF-7D5AD0E0DA08}");
+tocTab[tocTab.length] = new Array("0.1.1:8", "", "User sends request", "EARoot/EA1/EA1/EA12.htm", "104.png", "E278", "E280", "", "Action0","{30C7F74E-5FE6-4ae3-B637-FA669E77C5F4}");
+tocTab[tocTab.length] = new Array("0.1.1:9", "", "", "EARoot/EA1/EA1/EA13.htm", "56.png", "E286", "E281", "", "Decision0","{3D596438-EFE0-4f72-AEB3-E3909F866743}");
+tocTab[tocTab.length] = new Array("0.1.1:10", "", "Administrator receives the request", "EARoot/EA1/EA1/EA14.htm", "104.png", "E282", "E281", "", "Action0","{24A367B6-BEBB-4994-873E-96A697E9343D}");
+tocTab[tocTab.length] = new Array("0.1.1:11", "", "Administrator sends response", "EARoot/EA1/EA1/EA15.htm", "104.png", "E284", "E281", "", "Action0","{ED475751-6BAF-491e-BCB7-E296AC21588D}");
+tocTab[tocTab.length] = new Array("0.1.1:12", "", "Administrator verifies the request", "EARoot/EA1/EA1/EA16.htm", "104.png", "E283", "E281", "", "Action0","{80D5244F-E814-4855-8995-211718219D3F}");
+tocTab[tocTab.length] = new Array("0.1.1:13", "", "Profile is being block", "EARoot/EA1/EA1/EA17.htm", "104.png", "E287", "E281", "", "Action0","{58A67CFD-D60D-4bdf-BE45-632551AF7692}");
