@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.7.1", "1", "Podłączenie instagrama", "EARoot/EA7/EA1/EA264.htm", "4.png", "", "", "{CA75F499-B4E1-4ae9-A3F5-064EE13E5592}", "Package");
-tocTab[tocTab.length] = new Array("0.7.2", "1", "Utworzenie profilu", "EARoot/EA7/EA2/EA274.htm", "4.png", "", "", "{153CCA25-174F-40bb-A5BA-30F362BD95DE}", "Package");
+tocTab[tocTab.length] = new Array("0.7.1", "1", "Instagram connection", "EARoot/EA7/EA1/EA258.htm", "4.png", "", "", "{CA75F499-B4E1-4ae9-A3F5-064EE13E5592}", "Package");
+tocTab[tocTab.length] = new Array("0.7.2", "1", "Profile creation", "EARoot/EA7/EA2/EA268.htm", "4.png", "", "", "{153CCA25-174F-40bb-A5BA-30F362BD95DE}", "Package");

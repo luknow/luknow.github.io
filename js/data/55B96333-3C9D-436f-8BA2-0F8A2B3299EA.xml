@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.6.1.11:1", "", "Wymagania funkcjonalne zdjęcia", "EARoot/EA6/EA1/EA11/EA199.htm", "188.png", "2", "0", "", "Custom diagram0","{5AE26C06-A786-4a4b-A7C0-27F90A285913}");
-tocTab[tocTab.length] = new Array("0.6.1.11:2", "", "«Functional» Dodanie zdjęć", "EARoot/EA6/EA1/EA11/EA202.htm", "19.png", "E9", "0", "", "Requirement0","{547A76E0-6A0F-4022-8394-3474DB16BF50}");
-tocTab[tocTab.length] = new Array("0.6.1.11:3", "", "«Functional» Usunięcie zdjęcia", "EARoot/EA6/EA1/EA11/EA203.htm", "19.png", "E11", "0", "", "Requirement0","{5EB625AE-3BA8-4979-8000-6F7941D9C1BF}");
-tocTab[tocTab.length] = new Array("0.6.1.11:4", "", "«Functional» Zdjęcie profilowe", "EARoot/EA6/EA1/EA11/EA204.htm", "19.png", "E10", "0", "", "Requirement0","{9A3E539B-4858-453e-8262-57D4794123F6}");
+tocTab[tocTab.length] = new Array("0.5.1.6:1", "", "Gallery functional requirements", "EARoot/EA5/EA1/EA6/EA115.htm", "188.png", "2", "0", "", "Custom diagram0","{5AE26C06-A786-4a4b-A7C0-27F90A285913}");
+tocTab[tocTab.length] = new Array("0.5.1.6:2", "", "«Functional» Add a photo to the gallery", "EARoot/EA5/EA1/EA6/EA118.htm", "19.png", "E9", "0", "", "Requirement0","{547A76E0-6A0F-4022-8394-3474DB16BF50}");
+tocTab[tocTab.length] = new Array("0.5.1.6:3", "", "«Functional» Delete photo", "EARoot/EA5/EA1/EA6/EA119.htm", "19.png", "E11", "0", "", "Requirement0","{5EB625AE-3BA8-4979-8000-6F7941D9C1BF}");
+tocTab[tocTab.length] = new Array("0.5.1.6:4", "", "«Functional» Profile photo", "EARoot/EA5/EA1/EA6/EA120.htm", "19.png", "E10", "0", "", "Requirement0","{9A3E539B-4858-453e-8262-57D4794123F6}");

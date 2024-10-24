@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Manage privacy and security</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Manage privacy and security", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28.02.2021 13:16:12</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">30.09.2024 17:27:23</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Lukas</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{F20ECA66-0D4B-47cb-BFB0-6E34EF83DA68}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA238.htm">Use cases</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">The user has the ability to report:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Chat,&lt;/li&gt;&lt;li&gt;Profile.&lt;/li&gt;&lt;/ul&gt;<br />The user has the ability to block, unblock profiles. &lt;br/&gt;The user has the ability to block chat (which is equivalent to removing the matched profile).&lt;br/&gt;The user has the ability to add to favorites list profile that is in his friend circle.&lt;br/&gt;The user has the ability to add to favorites list profile that is in his Instagram&#39;s followers circle.&lt;br/&gt;The user has the ability to remove from favorites list mentioned above profiles.&lt;br/&gt;The user has the ability to modify viewing candidate profiles which are friends of a friend to remain anonymity.&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA241.htm">Administrator</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink330" onclick="parent.toggleDiv('detailsDIVLink330','DetailsImageLink330')" />Details:
+							<div id="detailsDIVLink330" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA252.htm">User</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink331" onclick="parent.toggleDiv('detailsDIVLink331','DetailsImageLink331')" />Details:
+							<div id="detailsDIVLink331" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA243.htm">«System» Facebook</a><br />
+						System &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink332" onclick="parent.toggleDiv('detailsDIVLink332','DetailsImageLink332')" />Details:
+							<div id="detailsDIVLink332" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA244.htm">«System» Instagram</a><br />
+						System &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink333" onclick="parent.toggleDiv('detailsDIVLink333','DetailsImageLink333')" />Details:
+							<div id="detailsDIVLink333" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Pre condition</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints334" onclick="parent.toggleDiv('detailsDIVConstraints334','DetailsImageConstraints334')" />Details:
+							<div id="detailsDIVConstraints334" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">The user must be logged into the application.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Favorites list limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints335" onclick="parent.toggleDiv('detailsDIVConstraints335','DetailsImageConstraints335')" />Details:
+							<div id="detailsDIVConstraints335" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">The number of spots on the favorites list is limited to 9&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Report limitations</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints336" onclick="parent.toggleDiv('detailsDIVConstraints336','DetailsImageConstraints336')" />Details:
+							<div id="detailsDIVConstraints336" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Possible values to select for report are:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Fake account,&lt;/li&gt;&lt;li&gt;Inappropriate content,&lt;/li&gt;&lt;li&gt;Profile under 18 years old,&lt;/li&gt;&lt;li&gt;Fraud,&lt;/li&gt;&lt;li&gt;Persecution,&lt;/li&gt;&lt;li&gt;Company,&lt;/li&gt;&lt;li&gt;I want to help&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Post condition - favorites list</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints337" onclick="parent.toggleDiv('detailsDIVConstraints337','DetailsImageConstraints337')" />Details:
+							<div id="detailsDIVConstraints337" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Favorites list has been modified.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Post condition - profile block</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints338" onclick="parent.toggleDiv('detailsDIVConstraints338','DetailsImageConstraints338')" />Details:
+							<div id="detailsDIVConstraints338" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a result of the actions taken, profile has been blocked or unblocked.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Post condition - chat block</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints339" onclick="parent.toggleDiv('detailsDIVConstraints339','DetailsImageConstraints339')" />Details:
+							<div id="detailsDIVConstraints339" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a result of the actions taken, Administrator of the Facebook dating application receives block request.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Post condition - chat block profile remove</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints340" onclick="parent.toggleDiv('detailsDIVConstraints340','DetailsImageConstraints340')" />Details:
+							<div id="detailsDIVConstraints340" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a result of the actions taken, the matched profile has been removed.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1. Adding to favorites list profile that is his Facebook friend </td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario341" onclick="parent.toggleDiv('detailsDIVScenario341','DetailsImageScenario341')" />Details:
+							<div id="detailsDIVScenario341" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to favorites list section.&lt;/li&gt;&lt;li&gt;The user chooses to add to the list a profile that is his Facebook friend.&lt;/li&gt;&lt;li&gt;The user searches for and selects a profile.&lt;/li&gt;&lt;li&gt;The user saves the modification.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">2. Adding to favorites list profile that is his Instagram's follower</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario342" onclick="parent.toggleDiv('detailsDIVScenario342','DetailsImageScenario342')" />Details:
+							<div id="detailsDIVScenario342" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to favorites list section.&lt;/li&gt;&lt;li&gt;The user chooses to add to the list a profile that is his Instagram&#39;s follower.&lt;/li&gt;&lt;li&gt;The user logs into Instagram.&lt;/li&gt;&lt;li&gt;The user searches for and selects a profile.&lt;/li&gt;&lt;li&gt;The user saves the modification.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">2.1. Adding to favorites list profile that is his Instagram's follower - incorrect login attempt</td>
+					<td width="10%" class="TableRow">Exception</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario343" onclick="parent.toggleDiv('detailsDIVScenario343','DetailsImageScenario343')" />Details:
+							<div id="detailsDIVScenario343" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to favorites list section.&lt;/li&gt;&lt;li&gt;The user chooses to add to the list a profile that is his Instagram&#39;s follower.&lt;/li&gt;&lt;li&gt;The user tries to log in incorrectly.&lt;/li&gt;&lt;li&gt;The user receives a message about incorrect login attempt.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">3. Removing profile from favorites list </td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario344" onclick="parent.toggleDiv('detailsDIVScenario344','DetailsImageScenario344')" />Details:
+							<div id="detailsDIVScenario344" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to favorites list section.&lt;/li&gt;&lt;li&gt;The user selects a profile.&lt;/li&gt;&lt;li&gt;The user confirms intention to remove the profile.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">4. Reporting chat</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario345" onclick="parent.toggleDiv('detailsDIVScenario345','DetailsImageScenario345')" />Details:
+							<div id="detailsDIVScenario345" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to pair list.&lt;/li&gt;&lt;li&gt;The user searches for and selects a profile to chat with.&lt;/li&gt;&lt;li&gt;The user chooses to report the chat.&lt;/li&gt;&lt;li&gt;The user selects the reason for report.&lt;/li&gt;&lt;li&gt;The user confirms intention to report the chat.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">5. Reporting profile</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario346" onclick="parent.toggleDiv('detailsDIVScenario346','DetailsImageScenario346')" />Details:
+							<div id="detailsDIVScenario346" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to pair list.&lt;/li&gt;&lt;li&gt;The user searches for and selects a profile&lt;/li&gt;&lt;li&gt;The user chooses to report the profile.&lt;/li&gt;&lt;li&gt;The user selects the reason for report.&lt;/li&gt;&lt;li&gt;The user confirms intention to report the profile.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">6. Blocking chat</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario347" onclick="parent.toggleDiv('detailsDIVScenario347','DetailsImageScenario347')" />Details:
+							<div id="detailsDIVScenario347" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to pair list.&lt;/li&gt;&lt;li&gt;The user searches for and selects a profile to chat with.&lt;/li&gt;&lt;li&gt;The user chooses to block the chat.&lt;/li&gt;&lt;li&gt;The user selects the reason for block.&lt;/li&gt;&lt;li&gt;The user confirms intention to block the chat.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">7. Blocking profile</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario348" onclick="parent.toggleDiv('detailsDIVScenario348','DetailsImageScenario348')" />Details:
+							<div id="detailsDIVScenario348" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to pair list.&lt;/li&gt;&lt;li&gt;The user searches for and selects a profile.&lt;/li&gt;&lt;li&gt;The user chooses to block the profile.&lt;/li&gt;&lt;li&gt;The user selects the reason for block.&lt;/li&gt;&lt;li&gt;The user confirms intention to block the profile.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">8. Unblocking profile</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario349" onclick="parent.toggleDiv('detailsDIVScenario349','DetailsImageScenario349')" />Details:
+							<div id="detailsDIVScenario349" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;The user navigates to blocked profiles section.&lt;/li&gt;&lt;li&gt;The user searches for and selects a profile.&lt;/li&gt;&lt;li&gt;The user chooses to unblock the profile.&lt;/li&gt;&lt;li&gt;The user confirms intention to unblock the profile.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA10/EA2/EA173.htm">«Functional» Block profile of a candidate who sent a like</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA10/EA1/EA167.htm">«Functional» Report chat</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA10/EA2/EA174.htm">«Functional» Report candidate profile</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA10/EA2/EA176.htm">«Functional» Unblock profile</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA5/EA114.htm">«Functional» Instagram's follower</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA10/EA2/EA171.htm">«Functional» Block candidate profile</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA10/EA1/EA166.htm">«Functional» Block chat</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA5/EA113.htm">«Functional» Facebook friend</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA10/EA2/EA172.htm">«Functional» Block matched profile</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA3/EA94.htm">«Functional» Friends of a friend profiles display</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA10/EA2/EA175.htm">«Functional» Report profile of a candidate who sent a like</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
