@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.7.2:1", "", "Profile creation", "EARoot/EA7/EA2/EA266.htm", "185.png", "53", "0", "", "Sequence diagram0","{110683C1-6E99-41e8-85AA-03E1E36E36C9}");
-tocTab[tocTab.length] = new Array("0.7.2:2", "", "", "EARoot/EA7/EA2/EA270.htm", "101.png", "E376", "0", "", "InteractionFragment0","{096D2222-D01E-4f2d-89EC-13BDCC95D2AD}");
-tocTab[tocTab.length] = new Array("0.7.2:3", "", "Profile creation request verification", "EARoot/EA7/EA2/EA271.htm", "101.png", "E377", "0", "", "InteractionFragment0","{78245B5A-EB0F-4141-A8C0-4B1B1AF80EF8}");
-tocTab[tocTab.length] = new Array("0.7.2:4", "", "Facebook", "EARoot/EA7/EA2/EA272.htm", "57.png", "E371", "0", "", "Sequence0","{76442D91-BC7F-4dc2-9A0C-C0B526967042}");
-tocTab[tocTab.length] = new Array("0.7.2:5", "", "Facebook dating", "EARoot/EA7/EA2/EA273.htm", "57.png", "E372", "0", "", "Sequence0","{05A086AD-3EEC-48d5-BC5C-FA09A6FF2B1E}");
-tocTab[tocTab.length] = new Array("0.7.2:6", "", "User", "EARoot/EA7/EA2/EA274.htm", "6.png", "E368", "0", "", "Actor0","{B8810222-C3F4-4a7f-AC1A-4C9DD59BBF28}");

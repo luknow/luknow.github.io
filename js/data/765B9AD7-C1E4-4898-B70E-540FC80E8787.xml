@@ -1,2 +1,0 @@
-tocTab[tocTab.length] = new Array("0.5.6:1", "", "Powiadomienia przypadki użycia", "EARoot/EA5/EA6/EA98.htm", "180.png", "35", "0", "", "Use Case diagram0","{7B98C67E-3C0C-4d14-83F3-608DBB16F71B}");
-tocTab[tocTab.length] = new Array("0.5.6:2", "", "Zmodyfikować otrzymywanie powiadomień", "EARoot/EA5/EA6/EA101.htm", "7.png", "E310", "0", "", "UseCase0","{71981048-80D1-4ea4-B164-B35C1937884B}");

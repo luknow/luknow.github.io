@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.5.2.1", "1", "Chat", "EARoot/EA5/EA2/EA1/EA214.htm", "4.png", "", "", "{7180FFF6-F2C3-4bc5-95E2-E0073380854A}", "Package");
-tocTab[tocTab.length] = new Array("0.5.2.2", "1", "Preferences", "EARoot/EA5/EA2/EA2/EA221.htm", "4.png", "", "", "{C6F7D206-F489-4ffd-855E-8E6CF5C91033}", "Package");
-tocTab[tocTab.length] = new Array("0.5.2.3", "1", "View profile", "EARoot/EA5/EA2/EA3/EA225.htm", "4.png", "", "", "{F5A808A9-2A5F-4ccb-93E2-8771DA2BE86B}", "Package");
-tocTab[tocTab.length] = new Array("0.5.2.4", "1", "Vote", "EARoot/EA5/EA2/EA4/EA232.htm", "4.png", "", "", "{FDD5DBE0-ECC6-47fd-97D0-38FC900244BB}", "Package");
