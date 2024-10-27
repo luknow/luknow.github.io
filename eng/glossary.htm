@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Project Glossary</title>
+<link href="./css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="16%" class="TableHeading">Item</td>
+			<td width="8%" class="TableHeading">Type</td>
+			<td width="76%" class="TableHeading">Meaning</td>
+		</tr>
+						<tr valign="top">
+				<td width="16%" class="TableRow">candidate profile</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A profile with which a user can create a match. If both the user and the person to whom the candidate's profile belongs give a positive voice to each other, the candidate's profile becomes a matched profile.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">candidate''s profile that sent a like</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A profile with which a user can create a match. Unlike the candidate's profile, this candidate's profile that sent a like automatically becomes a matched profile if the user gives a positive voice, as the person to whom this candidate's profile belongs has already expressed interest.
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">comment vote</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">Comment voting allows you to send a short text message by placing it in the text box under any photo on the candidate's profile. This action makes the user's profile stand out among the profiles of other users who also liked that profile.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">facebook</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A social networking service where registered users can create networks and groups, share messages and photos
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">facebook sticker</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">An image defined by Facebook that shows a specific reaction. Users can add stickers to the text chat on Facebook and send them during a conversation, reacting to the content of the received text message. The same feature has been made available in the dating app.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">favorites list</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A list containing the Facebook friends of the user or the Instagram followers of the user.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">full profile version</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">The full version of the profile includes:
+&nbsp;
+<ul>
+	<li>Candidate's profile picture</li>
+</ul>
+<ul>
+	<li>Candidate's first name</li>
+</ul>
+<ul>
+	<li>Candidate's age</li>
+</ul>
+<ul>
+	<li>Candidate's gender</li>
+</ul>
+<ul>
+	<li>Candidate's status</li>
+</ul>
+<ul>
+	<li>Candidate's height</li>
+</ul>
+<ul>
+	<li>Candidate's hometown</li>
+</ul>
+<ul>
+	<li>Candidate's known languages</li>
+</ul>
+<ul>
+	<li>Candidate's job title</li>
+</ul>
+<ul>
+	<li>Candidate's workplace</li>
+</ul>
+<ul>
+	<li>Candidate's high school</li>
+</ul>
+<ul>
+	<li>Candidate's level of education</li>
+</ul>
+<ul>
+	<li>Candidate's kids status</li>
+</ul>
+<ul>
+	<li>Candidate's smoking habits</li>
+</ul>
+<ul>
+	<li>Candidate's drinking habits</li>
+</ul>
+<ul>
+	<li>Candidate's religious beliefs</li>
+</ul>
+<ul>
+	<li>Candidate's hobbies and interests.</li>
+</ul></td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">gif</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">The graphic file format that allows for creating simple animations</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">instagram</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A photographic social networking service for hosting photos that allows users to edit images and videos, apply digital filters, and share them on various social media platforms.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">like</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A like means receiving or sending a promising voice from or to a user.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">matched profile</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A profile that has been matched with the user. The user can interact (e.g., chat via text) with the other user to whom the profile belongs.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">modifies informations</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow"><ul>
+	<li>Description,</li>
+	<li>Gender,</li>
+	<li>Status,</li>
+	<li>Height,</li>
+	<li>Hometown,</li>
+	<li>Languages,</li>
+	<li>Workplace,</li>
+	<li>Job position,</li>
+	<li>High school,</li>
+	<li>University,</li>
+	<li>Education,</li>
+	<li>Alcohol,</li>
+	<li>Smoking cigarettes,</li>
+	<li>Kids,</li>
+	<li>Religion,</li>
+	<li>Interests and hobby.</li>
+</ul></td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">modify</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">Add or delete</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">negative vote</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A negative voice indicates a lack of interest in a particular profile</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">pair</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A connection between the profiles of two users that enables interaction, such as through text chat or video chat.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">positive voice</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A positive voice indicates interest in a given profile.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">profile</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">The representation of a user in a dating app. It includes at least one photo of the user and may contain a description as well as additional information such as gender, education, or the number of children. Based on this, other users of the app evaluate whether they want to pursue a match.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">promising vote</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">It indicates interest in a given profile that could turn into a pair.
+
+A promising voice is a voice that includes:
+
+Positive voice
+Super voice
+Comment voting.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">shortened profile version</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">Shortened profile version contains:
+<ul>
+	<li>Candidate's profile picture,</li>
+	<li>Candidate's first name,</li>
+	<li>Candidate's age,</li>
+	<li>Candidate's location.</li>
+</ul></td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">super vote</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">A super voice is a type of promising voice that a user can send to a candidate's profile. The number of super voices is limited, but it makes the user's profile stand out among the profiles of other users who also liked that profile.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">tenor</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">An online GIF search engine and database. The main product is a GIF keyboard, which is available on the following platforms:
+<ul>
+	<li>iOS,</li>
+</ul>
+<ul>
+	<li>Android,</li>
+</ul>
+<ul>
+	<li>macOS.</li>
+</ul></td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">user</td>
+				<td width="8%" class="TableRow">business</td>
+				<td width="76%" class="TableRow">Every person who has a profile in a Facebook dating application</td>
+			</tr>
+</table><div class="pageFooter"></div>
+ 
+</body>
+</html>

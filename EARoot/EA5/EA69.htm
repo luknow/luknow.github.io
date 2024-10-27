@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Wyświetlić profil</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Wyświetlić profil", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">20.03.2021 15:22:03</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">15.09.2024 13:42:26</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Lukas</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{8D6D89EE-6C1D-408d-9E66-BB67EEC2EAF3}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA61.htm">Przypadki użycia</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">U&#380;ytkownik ma mo&#380;liwo&#347;&#263; wy&#347;wietlenia profilu na dwa sposoby: &lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Pe&#322;na wersja profilu,&lt;/li&gt;&lt;li&gt;Skr&#243;cona wersja profilu.&lt;/li&gt;&lt;/ul&gt;<br />dla profil&#243;w:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Profil kandydata,&lt;/li&gt;&lt;li&gt;Profil kandydata kt&#243;ry wys&#322;a&#322; polubienie,&lt;/li&gt;&lt;li&gt;Profil sparowany.&lt;/li&gt;&lt;/ul&gt;<br />Ponadto u&#380;ytkownik ma mo&#380;liwo&#347;&#263; wy&#347;wietlenia profil innego u&#380;ytkownik, kt&#243;ry nale&#380;y do tej samej grupy facebookowej co u&#380;ytkownik lub kt&#243;ry wzi&#261;&#322; udzia&#322; w tym samym wydarzeniu Facebook co u&#380;ytkownik.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA65.htm">«System» Facebook</a><br />
+						System &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink174" onclick="parent.toggleDiv('detailsDIVLink174','DetailsImageLink174')" />Details:
+							<div id="detailsDIVLink174" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA75.htm">Użytkownik</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink175" onclick="parent.toggleDiv('detailsDIVLink175','DetailsImageLink175')" />Details:
+							<div id="detailsDIVLink175" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Warunek wstępny</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints176" onclick="parent.toggleDiv('detailsDIVConstraints176','DetailsImageConstraints176')" />Details:
+							<div id="detailsDIVConstraints176" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">U&#380;ytkownik musi by&#263; zalogowany do aplikacji.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Warunek wstępny - wyświetlenie komentarza do zdjęcia</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints177" onclick="parent.toggleDiv('detailsDIVConstraints177','DetailsImageConstraints177')" />Details:
+							<div id="detailsDIVConstraints177" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Do zdj&#281;cia u&#380;ytkownika zosta&#322; zamieszczony komentarz.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Warunek końcowy - profile w tych samych grupach facebookowych</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints178" onclick="parent.toggleDiv('detailsDIVConstraints178','DetailsImageConstraints178')" />Details:
+							<div id="detailsDIVConstraints178" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">W wyniku dzia&#322;a&#324; u&#380;ytkownika zostaje przedstawiona mu lista profili, kt&#243;re znajduj&#261; si&#281; w tych samych facebookowych grupach co u&#380;ytkownik.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Warunek końcowy - profile w tych samych wydarzeniach</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints179" onclick="parent.toggleDiv('detailsDIVConstraints179','DetailsImageConstraints179')" />Details:
+							<div id="detailsDIVConstraints179" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">W wyniku dzia&#322;a&#324; u&#380;ytkownika zostaje przedstawiona mu lista profili, kt&#243;re wzi&#281;&#322;y udzia&#322; w tych samych wydarzeniach co u&#380;ytkownik.&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1. Wyświetlenie profilu, który wysłał polubienie - skrócona wersja</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario180" onclick="parent.toggleDiv('detailsDIVScenario180','DetailsImageScenario180')" />Details:
+							<div id="detailsDIVScenario180" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do sekcji po&#347;wi&#281;conej profilom, kt&#243;re wys&#322;a&#322;y polubienie.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona skr&#243;cona wersja profilu, kt&#243;ry wys&#322;a&#322; polubienie.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1.1. Wyświetlenie profilu, który wysłał polubienie - pełna wersja</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario181" onclick="parent.toggleDiv('detailsDIVScenario181','DetailsImageScenario181')" />Details:
+							<div id="detailsDIVScenario181" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do sekcji po&#347;wi&#281;conej profilom, kt&#243;re wys&#322;a&#322;y polubienie.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona skr&#243;cona wersja profilu, kt&#243;ry wys&#322;a&#322; polubienie.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik postanawia wy&#347;wietli&#263; pe&#322;n&#261; wersj&#281; profilu, kt&#243;ry wys&#322;a&#322; polubienie.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona pe&#322;na wersja profilu, kt&#243;ry wys&#322;a&#322; polubienie.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1.1.1. Wyświetlenie profilu, który wysłał polubienie - pełna wersja z komentarzem do zdjęcia</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario182" onclick="parent.toggleDiv('detailsDIVScenario182','DetailsImageScenario182')" />Details:
+							<div id="detailsDIVScenario182" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona tre&#347;&#263; komentarza zamieszczonego do zdj&#281;cia.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">2. Wyświetlenie profilu kandydata - skrócona wersja</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario183" onclick="parent.toggleDiv('detailsDIVScenario183','DetailsImageScenario183')" />Details:
+							<div id="detailsDIVScenario183" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do sekcji po&#347;wi&#281;conej profilom kandydata.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona skr&#243;cona wersja profilu kandydata.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">2.1. Wyświetlenie profilu kandydata - pełna wersja</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario184" onclick="parent.toggleDiv('detailsDIVScenario184','DetailsImageScenario184')" />Details:
+							<div id="detailsDIVScenario184" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do sekcji po&#347;wi&#281;conej profilom kandydata.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona skr&#243;cona wersja profilu kandydata.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik postanawia wy&#347;wietli&#263; pe&#322;n&#261; wersj&#281; profilu kandydata.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona pe&#322;na wersja profilu kandydata.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">2.2. Wyświetlenie profilu kandydata - brak profili o podanych kryteriach</td>
+					<td width="10%" class="TableRow">Exception</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario185" onclick="parent.toggleDiv('detailsDIVScenario185','DetailsImageScenario185')" />Details:
+							<div id="detailsDIVScenario185" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do sekcji po&#347;wi&#281;conej profilom kandydata.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawione powiadomienie o braku mo&#380;liwo&#347;ci wyszukania profili o podanych przez u&#380;ytkownika kryteriach&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona propozycja roszerzenia preferencji dotycz&#261;cych kryteri&#243;w wyszukiwania profili.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">3. Wyświetlenie profilu sparowanego - pełna wersja</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario186" onclick="parent.toggleDiv('detailsDIVScenario186','DetailsImageScenario186')" />Details:
+							<div id="detailsDIVScenario186" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do sekcji po&#347;wi&#281;conej profilom sparowanym.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik postanawia wy&#347;wietli&#263; pe&#322;n&#261; wersj&#281; profilu sparowanego.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaje przedstawiona pe&#322;na wersja profilu sparowanego.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">4. Wyświetlenie profilu znajdującego się w tej samej grupie</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario187" onclick="parent.toggleDiv('detailsDIVScenario187','DetailsImageScenario187')" />Details:
+							<div id="detailsDIVScenario187" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do sekcji po&#347;wi&#281;conej profilom znajduj&#261;cym si&#281; w tej samej facebookowej grupie.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik wybiera z kt&#243;rych grup maj&#261; zosta&#263; wyszukane profile.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaj&#261; przedstawione skr&#243;cone wersje profili kandydat&#243;w znajduj&#261;cych si&#281; w tych samych grupach co u&#380;ytkownik.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">5. Wyświetlenie profilu biorącego udział w tym samym wydarzeniu</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario188" onclick="parent.toggleDiv('detailsDIVScenario188','DetailsImageScenario188')" />Details:
+							<div id="detailsDIVScenario188" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;U&#380;ytkownik przechodzi do sekcji po&#347;wi&#281;conej profilom bior&#261;cym udzia&#322; w tym samym facebookowym wydarzeniu.&lt;/li&gt;&lt;li&gt;U&#380;ytkownik wybiera z kt&#243;rych wydarze&#324; maj&#261; zosta&#263; wyszukane profile.&lt;/li&gt;&lt;li&gt;U&#380;ytkownikowi zostaj&#261; przedstawione skr&#243;cone wersje profili kandydat&#243;w bior&#261;cych udzia&#322; w tych samych wydarzeniach co u&#380;ytkownik.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA10/EA2/EA194.htm">«Functional» Wyświetlenie skróconej wersji profilu kandydata</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA9/EA2/EA177.htm">«Functional» Filtrowanie wydarzenia</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA10/EA3/EA198.htm">«Functional» Wyświetlenie pełnej wersji profilu sparowanego</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA9/EA2/EA178.htm">«Functional» Profil wspólnego wydarzenia facebookowego</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA10/EA2/EA193.htm">«Functional» Wyświetlenie pełnej wersji profilu kandydata</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA9/EA1/EA172.htm">«Functional» Filtrowanie grupy</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA10/EA1/EA188.htm">«Functional» Wyświetlenie treści komentarza kandydata od którego otrzymano polubienie za pomocą komentarza
+</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA9/EA1/EA173.htm">«Functional» Profil wspólnej grupy facebookowej</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA10/EA1/EA186.htm">«Functional» Wyświetlenie pełnej wersji profilu kandydata, który wysłał polubienie</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA10/EA2/EA192.htm">«Functional» Brak profili o podanych kryteriach</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA1/EA10/EA1/EA187.htm">«Functional» Wyświetlenie skróconej wersji profilu kandydata, który wysłał polubienie</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
